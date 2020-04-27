@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyAI : MonoBehaviour
+public class Enemy: MonoBehaviour
 {
     public Transform Player;
 
@@ -16,7 +16,7 @@ public class EnemyAI : MonoBehaviour
     void Start()
     {
         Rb = this.GetComponent<Rigidbody2D>();
-        Hero = GameObject.Find("Hero");
+        Hero = GameObject.Find("Player");
     }
 
     // Update is called once per frame
@@ -26,7 +26,7 @@ public class EnemyAI : MonoBehaviour
         Debug.Log(direction);
         Debug.Log(Player.position);
         Debug.Log(transform.position);
-        float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg +90;
+        float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg + 90;
         Rb.rotation = angle;
     }
 }
