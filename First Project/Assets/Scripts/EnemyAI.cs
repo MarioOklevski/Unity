@@ -16,7 +16,7 @@ public class EnemyAI : MonoBehaviour
     void Start()
     {
         Rb = this.GetComponent<Rigidbody2D>();
-        Hero = GameObject.Find("Hero");
+        Hero = GameObject.Find("Player");
     }
 
     // Update is called once per frame  
