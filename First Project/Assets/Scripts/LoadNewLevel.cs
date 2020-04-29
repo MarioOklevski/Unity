@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class LoadNewLevel : MonoBehaviour
 {
@@ -22,7 +23,7 @@ public class LoadNewLevel : MonoBehaviour
     {
         if(collision.gameObject.name == "Player")
         {
-            Application.LoadLevel(LevelToLoad);
+            SceneManager.LoadScene(LevelToLoad);
         }
     }
 }
