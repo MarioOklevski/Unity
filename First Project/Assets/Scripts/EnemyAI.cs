@@ -12,6 +12,8 @@ public class EnemyAI : MonoBehaviour
     private Rigidbody2D Rb;
 
     public float Movement_speed = 3;
+
+    private Vector2 Movement;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,11 +24,20 @@ public class EnemyAI : MonoBehaviour
     // Update is called once per frame  
     void Update()
     {
-        Vector3 direction = Hero.transform.position - transform.position;
+        Vector2 direction = Hero.transform.position - transform.position;
         Debug.Log(direction);
         Debug.Log(Player.position);
         Debug.Log(transform.position);
         float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg +90;
         Rb.rotation = angle;
+        Movement = direction;
+    }
+    private void FixedUpdate()
+    {
+        moveCharacter(Movement);
+    }
+    void moveCharacter(Vector2 direction)
+    {
+        Rb.MovePosition((Vector2)transform.position + (direction * Movement_speed * Time.deltaTime));
     }
 }

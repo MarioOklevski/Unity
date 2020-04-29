@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Second Scene.unity
     guid: 062fabe30bb5fd740bb9cada0669a396
+  - enabled: 1
+    path: Assets/Scenes/EasterEgg.unity
+    guid: 953c2e7fe9ea267438215f172bb4d900
   m_configObjects: {}

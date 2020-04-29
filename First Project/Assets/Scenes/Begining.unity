@@ -4539,7 +4539,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Player: {fileID: 2092030122}
   Hero: {fileID: 0}
-  Movement_speed: 3
+  Movement_speed: 0.55
 --- !u!50 &1042738760
 Rigidbody2D:
   serializedVersion: 4
