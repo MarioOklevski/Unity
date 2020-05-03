@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 using UnityEngine;
 
 public class Skeleton_Controls : MonoBehaviour
@@ -16,18 +17,21 @@ public class Skeleton_Controls : MonoBehaviour
     private float TimeToMoveCounter;
     private Vector3 direction;
 
+
     // Start is called before the first frame update
     void Start()
     {
+        
         anim = GetComponent<Animator>();
         myRigidBody = GetComponent<Rigidbody2D>();
-        TimeBetweenMoveCounter = TimeBetweenMove;
-        TimeToMoveCounter = TimeToMove;
+        TimeBetweenMoveCounter = Random.Range(TimeBetweenMove * 0.75f, TimeBetweenMove * 1.25f);
+        TimeToMoveCounter = Random.Range(TimeToMove * 0.75f, TimeToMove * 1.25f);
     }
 
     // Update is called once per frame
     void Update()
     {
+        /////////////////////MOVEMENT/////////////////
         if (Movement)
         {
             TimeToMoveCounter -= Time.deltaTime;
@@ -36,7 +40,7 @@ public class Skeleton_Controls : MonoBehaviour
             if (TimeToMoveCounter < 0f)
             {
                 Movement = false;
-                TimeBetweenMoveCounter = TimeBetweenMove;
+                TimeBetweenMoveCounter = Random.Range(TimeBetweenMove * 0.75f, TimeBetweenMove * 1.25f);
             }
         }
         else
@@ -46,7 +50,7 @@ public class Skeleton_Controls : MonoBehaviour
             if (TimeBetweenMoveCounter < 0f)
             {
                 Movement = true;
-                TimeToMoveCounter = TimeToMove;
+                TimeToMoveCounter = Random.Range(TimeToMove * 0.75f, TimeToMove * 1.25f);
                 direction = new Vector3(Random.Range(-1f, 1f) * moveSpeed, Random.Range(-1f, 1f) * moveSpeed, 0f);
                 LastMove = new Vector2(direction.x, direction.y);
             }
@@ -56,5 +60,8 @@ public class Skeleton_Controls : MonoBehaviour
         anim.SetBool("MovingSkeleton", Movement);
         anim.SetFloat("LastMoveX", LastMove.x);
         anim.SetFloat("LastMoveY", LastMove.y);
+
+        /////////////////DAMAGE/////////////////////
+        
     }
 }
