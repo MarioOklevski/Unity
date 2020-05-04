@@ -6,11 +6,12 @@ using UnityEngine.SceneManagement;
 public class LoadNewLevel : MonoBehaviour
 {
     public string LevelToLoad;
-
+    public string ExitPoint;
+    private Controls Player;
     // Start is called before the first frame update
     void Start()
     {
-        
+        Player = FindObjectOfType<Controls>();
     }
 
     // Update is called once per frame
@@ -24,6 +25,7 @@ public class LoadNewLevel : MonoBehaviour
         if(collision.gameObject.name == "Player")
         {
             SceneManager.LoadScene(LevelToLoad);
+            Player.StartPoint = ExitPoint;
         }
     }
 }

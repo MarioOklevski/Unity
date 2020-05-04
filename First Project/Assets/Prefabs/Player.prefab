@@ -72,6 +72,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Damage: 5
+  DamageEffect: {fileID: 2973660987128528767, guid: 37a791a077bf5ea4d9a6283c26be4820,
+    type: 3}
+  DamageNumbers: {fileID: 5587805460742487813, guid: 5429555df50f346409caa0ced7694702,
+    type: 3}
 --- !u!50 &1160559474
 Rigidbody2D:
   serializedVersion: 4
@@ -108,10 +112,10 @@ GameObject:
   - component: {fileID: 8130883235779334046}
   - component: {fileID: 4213840600411645705}
   - component: {fileID: 8130883235399387396}
-  - component: {fileID: 8130883235399387399}
+  - component: {fileID: 1962278775}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -242,7 +246,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 4
+  lastMove: {x: 0, y: 0}
   AttackTime: 0.7
+  StartPoint: 
 --- !u!114 &4213840600411645705
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -257,7 +263,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PlayerMaxHealth: 50
   PlayerCurrentHealth: 0
-  WaitToReload: 0.5
 --- !u!95 &8130883235399387396
 Animator:
   serializedVersion: 3
@@ -277,16 +282,17 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &8130883235399387399
+--- !u!114 &1962278775
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8130883235779334049}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d2f8914d4a16089428d6e74bc04ad64e, type: 3}
+  m_Script: {fileID: 11500000, guid: 73f7fab427b0ee14aa63c04dd028dc8f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Damage: 0
+  PlayerMaxHealth: 50
+  PlayerCurrentHealth: 0

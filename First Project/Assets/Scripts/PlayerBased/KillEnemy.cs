@@ -6,6 +6,7 @@ public class KillEnemy : MonoBehaviour
 {
     public int Damage;
     public GameObject DamageEffect;
+    public GameObject DamageNumbers;
     // Start is called before the first frame update
     void Start()
     {
@@ -23,6 +24,8 @@ public class KillEnemy : MonoBehaviour
         {
             collision.gameObject.GetComponent<EnemyHealth>().DamageEnemy(Damage);
             Instantiate(DamageEffect, transform.position, transform.rotation);
+            var clone = (GameObject)Instantiate(DamageNumbers, transform.position, Quaternion.Euler(Vector3.zero));
+            clone.GetComponent<DamageNumbers>().DamageNumber = Damage;
         }
     }
 }

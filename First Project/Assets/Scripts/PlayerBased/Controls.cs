@@ -8,15 +8,26 @@ public class Controls : MonoBehaviour
     private Animator anim;
     private Rigidbody2D myRigidBody;
     private bool Moving_Player;
-    private Vector2 lastMove;
+    public Vector2 lastMove;
     private bool Attacking;
     public float AttackTime;
     private float AttackTimeCounter;
+    private static bool PlayerExists;
+    public string StartPoint;
     // Start is called before the first frame update
     void Start()
     {
         anim = GetComponent<Animator>();
         myRigidBody = GetComponent<Rigidbody2D>();
+        if (!PlayerExists)
+        {
+            PlayerExists = true;
+            DontDestroyOnLoad(transform.gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
     }
 
     // Update is called once per frame

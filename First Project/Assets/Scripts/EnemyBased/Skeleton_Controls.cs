@@ -16,12 +16,16 @@ public class Skeleton_Controls : MonoBehaviour
     public float TimeToMove;
     private float TimeToMoveCounter;
     private Vector3 direction;
-
+    public float WaitToReload;
+    string SC;
+    private bool reloading;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        Scene CurrentScene = SceneManager.GetActiveScene();
+        string SC2 = CurrentScene.name;
+        SC = SC2;
         anim = GetComponent<Animator>();
         myRigidBody = GetComponent<Rigidbody2D>();
         TimeBetweenMoveCounter = Random.Range(TimeBetweenMove * 0.75f, TimeBetweenMove * 1.25f);
@@ -60,8 +64,26 @@ public class Skeleton_Controls : MonoBehaviour
         anim.SetBool("MovingSkeleton", Movement);
         anim.SetFloat("LastMoveX", LastMove.x);
         anim.SetFloat("LastMoveY", LastMove.y);
+        if (reloading)
+        {
+            WaitToReload -= Time.deltaTime;
+            if (WaitToReload <= 0)
+            {
+                SceneManager.LoadScene(SC);
+                reloading = false;
+            }
+        }
+    }
+    void OnCollisionEnter2D(Collision2D collision)
+    {
 
-        /////////////////DAMAGE/////////////////////
-        
+        if(collision.gameObject.tag == "Player")
+        {
+            if (collision.gameObject.GetComponent<PlayerHealth>().PlayerCurrentHealth <= 0)
+            {
+                collision.gameObject.SetActive(false);
+                reloading = true;
+            }
+        }
     }
 }
