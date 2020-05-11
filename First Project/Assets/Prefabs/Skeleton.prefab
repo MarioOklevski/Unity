@@ -183,6 +183,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DamageToDeal: 10
+  WaitToReload: 0
+  DamageNumbers: {fileID: 5587805460742487813, guid: 5429555df50f346409caa0ced7694702,
+    type: 3}
 --- !u!114 &138428061
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -197,3 +200,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EnemyMaxHealth: 10
   EnemyCurrentHealth: 0
+  ExpWhenKilled: 25

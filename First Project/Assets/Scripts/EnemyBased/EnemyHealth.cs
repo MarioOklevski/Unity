@@ -6,9 +6,12 @@ public class EnemyHealth : MonoBehaviour
 {
     public int EnemyMaxHealth;
     public int EnemyCurrentHealth;
+    private PlayerStats Stats;
+    public int ExpWhenKilled;
     // Start is called before the first frame update
     void Start()
     {
+        Stats = FindObjectOfType<PlayerStats>();
         EnemyCurrentHealth = EnemyMaxHealth;
     }
 
@@ -18,6 +21,7 @@ public class EnemyHealth : MonoBehaviour
         if(EnemyCurrentHealth <= 0f)
         {
             Destroy(gameObject);
+            Stats.AddExperience(ExpWhenKilled);
         }
         if(EnemyCurrentHealth > 0f)
         {

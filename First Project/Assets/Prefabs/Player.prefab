@@ -246,9 +246,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 4
+  DiagonalMoveModif: 0.8
   lastMove: {x: 0, y: 0}
   AttackTime: 0.7
-  StartPoint: 
+  StartPoint: Begin
 --- !u!114 &4213840600411645705
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -263,6 +264,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PlayerMaxHealth: 50
   PlayerCurrentHealth: 0
+  EffectLength: 0.3
 --- !u!95 &8130883235399387396
 Animator:
   serializedVersion: 3
@@ -296,3 +298,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PlayerMaxHealth: 50
   PlayerCurrentHealth: 0
+  EffectLength: 0.5

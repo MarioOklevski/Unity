@@ -5,6 +5,8 @@ using UnityEngine;
 public class Controls : MonoBehaviour
 {
     public float moveSpeed;
+    private float CurrentMoveSpeed;
+    public float DiagonalMoveModif;
     private Animator anim;
     private Rigidbody2D myRigidBody;
     private bool Moving_Player;
@@ -36,15 +38,16 @@ public class Controls : MonoBehaviour
         Moving_Player = false;
         if (!Attacking)
         {
+            /////////////MOVEMENT/////////////
             if (Input.GetAxisRaw("Horizontal") > 0.5f || Input.GetAxisRaw("Horizontal") < -0.5f)
             {
-                myRigidBody.velocity = new Vector2(Input.GetAxisRaw("Horizontal") * moveSpeed, myRigidBody.velocity.y);
+                myRigidBody.velocity = new Vector2(Input.GetAxisRaw("Horizontal") * CurrentMoveSpeed, myRigidBody.velocity.y);
                 Moving_Player = true;
                 lastMove = new Vector2(Input.GetAxisRaw("Horizontal"), 0f);
             }
             if (Input.GetAxisRaw("Vertical") > 0.5f || Input.GetAxisRaw("Vertical") < -0.5f)
             {
-                myRigidBody.velocity = new Vector2(myRigidBody.velocity.x, Input.GetAxisRaw("Vertical") * moveSpeed);
+                myRigidBody.velocity = new Vector2(myRigidBody.velocity.x, Input.GetAxisRaw("Vertical") * CurrentMoveSpeed);
                 Moving_Player = true;
                 lastMove = new Vector2(0f, Input.GetAxisRaw("Vertical"));
             }
@@ -57,7 +60,7 @@ public class Controls : MonoBehaviour
             {
                 myRigidBody.velocity = new Vector2(myRigidBody.velocity.x, 0f);
             }
-            /////////////ATTACK////////////
+            /////////////ATTACK/////////////
             if (Input.GetKeyDown(KeyCode.J))
             {
                 AttackTimeCounter = AttackTime;
@@ -65,6 +68,15 @@ public class Controls : MonoBehaviour
                 myRigidBody.velocity = Vector2.zero;
                 anim.SetBool("Attacking", true);
             }
+            if(Mathf.Abs(Input.GetAxisRaw("Horizontal")) > 0.5f && Mathf.Abs(Input.GetAxisRaw("Vertical")) > 0.5f)
+            {
+                CurrentMoveSpeed = moveSpeed * DiagonalMoveModif;
+            }
+            else
+            {
+                CurrentMoveSpeed = moveSpeed;
+            }
+
         }
         if(AttackTimeCounter > 0)
         {
@@ -75,6 +87,7 @@ public class Controls : MonoBehaviour
             Attacking = false;
             anim.SetBool("Attacking", false);
         }
+
         anim.SetFloat("MoveX", Input.GetAxisRaw("Horizontal"));
         anim.SetFloat("MoveY", Input.GetAxisRaw("Vertical"));
         anim.SetFloat("LastMoveX", lastMove.x);
