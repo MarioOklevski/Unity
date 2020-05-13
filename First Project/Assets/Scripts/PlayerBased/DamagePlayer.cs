@@ -6,14 +6,17 @@ using UnityEngine;
 public class DamagePlayer : MonoBehaviour
 {
     public int DamageToDeal;
+    private int CurrentDamage;
     private bool reloading;
     public float WaitToReload;
     string SC;
     private GameObject Player;
     public GameObject DamageNumbers;
+    private PlayerStats Stats;
     // Start is called before the first frame update
     void Start()
     {
+        Stats = FindObjectOfType<PlayerStats>();
         Scene CurrentScene = SceneManager.GetActiveScene();
         string SC2 = CurrentScene.name;
         SC = SC2;
@@ -38,9 +41,14 @@ public class DamagePlayer : MonoBehaviour
     {
         if (other.gameObject.name == "Player")
         {
-            other.gameObject.GetComponent<PlayerHealth>().DamagePlayer(DamageToDeal);
+            CurrentDamage = DamageToDeal - Stats.CurrentDeffence;
+            if(CurrentDamage < 0)
+            {
+                CurrentDamage = 1;
+            }
+            other.gameObject.GetComponent<PlayerHealth>().DamagePlayer(CurrentDamage);
             var clone = (GameObject)Instantiate(DamageNumbers, other.transform.position, Quaternion.Euler(Vector3.zero));
-            clone.GetComponent<DamageNumbers>().DamageNumber = DamageToDeal;
+            clone.GetComponent<DamageNumbers>().DamageNumber = CurrentDamage;
             if (other.gameObject.GetComponent<PlayerHealth>().PlayerCurrentHealth <= 0)
             {
                 Player = other.gameObject;

@@ -98,3 +98,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   followTarget: {fileID: 0}
   CameraSpeed: 1.95
+  BoundsBox: {fileID: 0}
