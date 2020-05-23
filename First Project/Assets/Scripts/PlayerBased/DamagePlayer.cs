@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine.SceneManagement;
 using UnityEngine;
+using System.Collections.Specialized;
 
 public class DamagePlayer : MonoBehaviour
 {
@@ -13,9 +14,11 @@ public class DamagePlayer : MonoBehaviour
     private GameObject Player;
     public GameObject DamageNumbers;
     private PlayerStats Stats;
+    private float HalfTimeToReload;
     // Start is called before the first frame update
     void Start()
     {
+        HalfTimeToReload = WaitToReload / 2;
         Stats = FindObjectOfType<PlayerStats>();
         Scene CurrentScene = SceneManager.GetActiveScene();
         string SC2 = CurrentScene.name;
@@ -32,8 +35,8 @@ public class DamagePlayer : MonoBehaviour
             {
                 SceneManager.LoadScene(SC);
                 Player.GetComponent<PlayerHealth>().ResetHealth();
-                Player.SetActive(true);
                 reloading = false;
+                Player.GetComponent<Animator>().SetBool("Dying", false);
             }
         }
     }
@@ -52,7 +55,8 @@ public class DamagePlayer : MonoBehaviour
             if (other.gameObject.GetComponent<PlayerHealth>().PlayerCurrentHealth <= 0)
             {
                 Player = other.gameObject;
-                other.gameObject.SetActive(false);
+                Player.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
+                Player.GetComponent<Animator>().SetBool("Dying", true);
                 reloading = true;
             }
         }

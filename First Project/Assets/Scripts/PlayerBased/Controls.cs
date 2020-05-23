@@ -87,7 +87,6 @@ public class Controls : MonoBehaviour
             Attacking = false;
             anim.SetBool("Attacking", false);
         }
-
         anim.SetFloat("MoveX", Input.GetAxisRaw("Horizontal"));
         anim.SetFloat("MoveY", Input.GetAxisRaw("Vertical"));
         anim.SetFloat("LastMoveX", lastMove.x);
