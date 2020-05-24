@@ -23,10 +23,6 @@ public class EnemyHealth : MonoBehaviour
             Destroy(gameObject);
             Stats.AddExperience(ExpWhenKilled);
         }
-        if(EnemyCurrentHealth > 0f)
-        {
-
-        }
     }
     public void DamageEnemy(int TakenDamage)
     {
