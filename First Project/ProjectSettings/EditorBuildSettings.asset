@@ -21,6 +21,9 @@ EditorBuildSettings:
     path: Assets/Scenes/BeachScene.unity
     guid: 18aada24ceb8f48139127dfa4796f468
   - enabled: 1
+    path: Assets/Scenes/Winter.unity
+    guid: f10e4e4f931e20e45b1d8b4fd19d41b4
+  - enabled: 1
     path: Assets/Scenes/BOSS_LEVEL.unity
     guid: 3559ca02eee15d74eb032f11a674af5e
   m_configObjects: {}

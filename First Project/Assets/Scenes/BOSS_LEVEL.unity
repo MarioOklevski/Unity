@@ -151,7 +151,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   StartDirection: {x: 0, y: 0}
-  PointName: Begining - Boss Level
+  PointName: Winter Scene - Boss Level
 --- !u!4 &316118313
 Transform:
   m_ObjectHideFlags: 0
@@ -8945,8 +8945,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 213b4bd2086b28b4c80f967b936c942b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LevelToLoad: Begining
-  ExitPoint: Boss Level - Begining
+  LevelToLoad: Winter
+  ExitPoint: Winter Scene - Boss Level
 --- !u!61 &1648737987
 BoxCollider2D:
   m_ObjectHideFlags: 0
