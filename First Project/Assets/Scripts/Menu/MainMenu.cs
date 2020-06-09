@@ -8,15 +8,15 @@ public class MainMenu : MonoBehaviour
 {
     public void PlayGame()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex+1);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex+2);
     }
-    public void Rnadom(){
+    public void Random(){
         SceneManager.LoadScene("Begining");
     }
 
     public void SceneToChange(string scene)
     {
-        Application.LoadLevel(scene);
+       SceneManager.LoadScene(scene);
     }
 
     public void ExitGame(){
