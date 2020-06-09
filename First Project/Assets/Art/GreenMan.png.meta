@@ -1,0 +1,5972 @@
+fileFormatVersion: 2
+guid: 18cf0c112030d4a0eacf6ffd276a9189
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3390435897099418679
+    second: GreenMan_0
+  - first:
+      213: 285892839947192163
+    second: GreenMan_1
+  - first:
+      213: 5837052347061615116
+    second: GreenMan_2
+  - first:
+      213: -2527516452863844149
+    second: GreenMan_3
+  - first:
+      213: 5854404237098734224
+    second: GreenMan_4
+  - first:
+      213: -7639240655697171362
+    second: GreenMan_5
+  - first:
+      213: -8121587285949806919
+    second: GreenMan_6
+  - first:
+      213: 1845147176121281378
+    second: GreenMan_7
+  - first:
+      213: 2914433480115941800
+    second: GreenMan_8
+  - first:
+      213: 7124473784498332827
+    second: GreenMan_9
+  - first:
+      213: -8745004000109776834
+    second: GreenMan_10
+  - first:
+      213: -35180201122873856
+    second: GreenMan_11
+  - first:
+      213: 8077402576163965842
+    second: GreenMan_12
+  - first:
+      213: -3926415348295545398
+    second: GreenMan_13
+  - first:
+      213: 1158792606057183202
+    second: GreenMan_14
+  - first:
+      213: -8084287478269586745
+    second: GreenMan_15
+  - first:
+      213: 524594076792107329
+    second: GreenMan_16
+  - first:
+      213: 3661743132971707246
+    second: GreenMan_17
+  - first:
+      213: 4357900183312010348
+    second: GreenMan_18
+  - first:
+      213: -879036748999934782
+    second: GreenMan_19
+  - first:
+      213: 5083415078356215612
+    second: GreenMan_20
+  - first:
+      213: 8442100711947228585
+    second: GreenMan_21
+  - first:
+      213: -5653906247001333956
+    second: GreenMan_22
+  - first:
+      213: 4593492802643248064
+    second: GreenMan_23
+  - first:
+      213: 8747609186274210008
+    second: GreenMan_24
+  - first:
+      213: -1812440051804453626
+    second: GreenMan_25
+  - first:
+      213: 3949562385751108727
+    second: GreenMan_26
+  - first:
+      213: 1264037420972158574
+    second: GreenMan_27
+  - first:
+      213: 8007783768235408147
+    second: GreenMan_28
+  - first:
+      213: -541564071973031712
+    second: GreenMan_29
+  - first:
+      213: -4669323350636715433
+    second: GreenMan_30
+  - first:
+      213: 5913188344548647685
+    second: GreenMan_31
+  - first:
+      213: 7921512481531072685
+    second: GreenMan_32
+  - first:
+      213: -8424932437423883991
+    second: GreenMan_33
+  - first:
+      213: -5301801631090821784
+    second: GreenMan_34
+  - first:
+      213: -9160364997267409400
+    second: GreenMan_35
+  - first:
+      213: 8211955098293445291
+    second: GreenMan_36
+  - first:
+      213: -4266542298028868173
+    second: GreenMan_37
+  - first:
+      213: 2907895539464431648
+    second: GreenMan_38
+  - first:
+      213: 8934655271042379245
+    second: GreenMan_39
+  - first:
+      213: -5812401455175878835
+    second: GreenMan_40
+  - first:
+      213: -8613789799331090585
+    second: GreenMan_41
+  - first:
+      213: 9188852580114021324
+    second: GreenMan_42
+  - first:
+      213: -1279142591909863434
+    second: GreenMan_43
+  - first:
+      213: -6459597720931615631
+    second: GreenMan_44
+  - first:
+      213: -8546494794435269949
+    second: GreenMan_45
+  - first:
+      213: 2616594305596157350
+    second: GreenMan_46
+  - first:
+      213: 7739040524257394550
+    second: GreenMan_47
+  - first:
+      213: -1663566496118116580
+    second: GreenMan_48
+  - first:
+      213: -663707849108599765
+    second: GreenMan_49
+  - first:
+      213: -2098099438862167591
+    second: GreenMan_50
+  - first:
+      213: 6281562518072440868
+    second: GreenMan_51
+  - first:
+      213: 8059804869741949218
+    second: GreenMan_52
+  - first:
+      213: -6604502647824426453
+    second: GreenMan_53
+  - first:
+      213: 6700869532252903385
+    second: GreenMan_54
+  - first:
+      213: 6895293720198145714
+    second: GreenMan_55
+  - first:
+      213: -7120839626234434099
+    second: GreenMan_56
+  - first:
+      213: -3965951478644603917
+    second: GreenMan_57
+  - first:
+      213: 6814623118150863286
+    second: GreenMan_58
+  - first:
+      213: 411116566415790224
+    second: GreenMan_59
+  - first:
+      213: -3624479578870240874
+    second: GreenMan_60
+  - first:
+      213: 7605355744983320397
+    second: GreenMan_61
+  - first:
+      213: 2042047442548649192
+    second: GreenMan_62
+  - first:
+      213: -2803916738625012723
+    second: GreenMan_63
+  - first:
+      213: 7334546924250472737
+    second: GreenMan_64
+  - first:
+      213: -5426921669543012474
+    second: GreenMan_65
+  - first:
+      213: -4527585953748739166
+    second: GreenMan_66
+  - first:
+      213: 686272803125454638
+    second: GreenMan_67
+  - first:
+      213: -3790976094424814857
+    second: GreenMan_68
+  - first:
+      213: 947592768220286880
+    second: GreenMan_69
+  - first:
+      213: -1899355342139388554
+    second: GreenMan_70
+  - first:
+      213: 7694583611400824227
+    second: GreenMan_71
+  - first:
+      213: -6064109425122761250
+    second: GreenMan_72
+  - first:
+      213: -8851982695252512678
+    second: GreenMan_73
+  - first:
+      213: -4100964434491245345
+    second: GreenMan_74
+  - first:
+      213: 7250584373824397401
+    second: GreenMan_75
+  - first:
+      213: 4532363404449129851
+    second: GreenMan_76
+  - first:
+      213: 3935031462121964652
+    second: GreenMan_77
+  - first:
+      213: 6169677700308647815
+    second: GreenMan_78
+  - first:
+      213: 1710122100136292412
+    second: GreenMan_79
+  - first:
+      213: 3433824332150258621
+    second: GreenMan_80
+  - first:
+      213: -6342807915788839322
+    second: GreenMan_81
+  - first:
+      213: 1045528767515515596
+    second: GreenMan_82
+  - first:
+      213: 829921633538739348
+    second: GreenMan_83
+  - first:
+      213: 2552372454022142323
+    second: GreenMan_84
+  - first:
+      213: -2392528248327713996
+    second: GreenMan_85
+  - first:
+      213: -4261091612969653961
+    second: GreenMan_86
+  - first:
+      213: -434494542605564429
+    second: GreenMan_87
+  - first:
+      213: -109250516841871061
+    second: GreenMan_88
+  - first:
+      213: 5407219232772523550
+    second: GreenMan_89
+  - first:
+      213: 5203685400857488580
+    second: GreenMan_90
+  - first:
+      213: 1924262301443175307
+    second: GreenMan_91
+  - first:
+      213: 472580412410639056
+    second: GreenMan_92
+  - first:
+      213: 3310359066295325246
+    second: GreenMan_93
+  - first:
+      213: -5782694514932730434
+    second: GreenMan_94
+  - first:
+      213: 1830892765259683936
+    second: GreenMan_95
+  - first:
+      213: 5987802491315021857
+    second: GreenMan_96
+  - first:
+      213: -1669468580979546797
+    second: GreenMan_97
+  - first:
+      213: -1736584425494379263
+    second: GreenMan_98
+  - first:
+      213: 4057358844760951367
+    second: GreenMan_99
+  - first:
+      213: -8972994573096003040
+    second: GreenMan_100
+  - first:
+      213: -7913737091498341542
+    second: GreenMan_101
+  - first:
+      213: 7585109950777639815
+    second: GreenMan_102
+  - first:
+      213: 9058185993720105105
+    second: GreenMan_103
+  - first:
+      213: -2496164771979158160
+    second: GreenMan_104
+  - first:
+      213: 7901087044547888517
+    second: GreenMan_105
+  - first:
+      213: 453892644665356583
+    second: GreenMan_106
+  - first:
+      213: 5235145125779275135
+    second: GreenMan_107
+  - first:
+      213: 873529262898422231
+    second: GreenMan_108
+  - first:
+      213: 6253985183718773483
+    second: GreenMan_109
+  - first:
+      213: -272272689672699633
+    second: GreenMan_110
+  - first:
+      213: -6220303978314218302
+    second: GreenMan_111
+  - first:
+      213: -6095575955839183802
+    second: GreenMan_112
+  - first:
+      213: 3270463279442145993
+    second: GreenMan_113
+  - first:
+      213: -3580782475249010092
+    second: GreenMan_114
+  - first:
+      213: -2915081591743220623
+    second: GreenMan_115
+  - first:
+      213: 4668683048167963890
+    second: GreenMan_116
+  - first:
+      213: -7407901802505468720
+    second: GreenMan_117
+  - first:
+      213: -5438999947838055823
+    second: GreenMan_118
+  - first:
+      213: -1419478878310567037
+    second: GreenMan_119
+  - first:
+      213: -805970426009567624
+    second: GreenMan_120
+  - first:
+      213: -2106061830321216543
+    second: GreenMan_121
+  - first:
+      213: 9155742743108611182
+    second: GreenMan_122
+  - first:
+      213: -3420516170381897833
+    second: GreenMan_123
+  - first:
+      213: 2176479524039636848
+    second: GreenMan_124
+  - first:
+      213: -8401224738461561357
+    second: GreenMan_125
+  - first:
+      213: 7400505604397531832
+    second: GreenMan_126
+  - first:
+      213: -400125309021506171
+    second: GreenMan_127
+  - first:
+      213: -4224196812170017937
+    second: GreenMan_128
+  - first:
+      213: -2154145075573730294
+    second: GreenMan_129
+  - first:
+      213: 7375564847403016119
+    second: GreenMan_130
+  - first:
+      213: 8078175211960316197
+    second: GreenMan_131
+  - first:
+      213: 1557096899109601877
+    second: GreenMan_132
+  - first:
+      213: -227246754689977957
+    second: GreenMan_133
+  - first:
+      213: -8276309035349106509
+    second: GreenMan_134
+  - first:
+      213: -241890220666827143
+    second: GreenMan_135
+  - first:
+      213: -2657017359392670119
+    second: GreenMan_136
+  - first:
+      213: 2746220810539882617
+    second: GreenMan_137
+  - first:
+      213: 7796508257614047054
+    second: GreenMan_138
+  - first:
+      213: -6799478822317813191
+    second: GreenMan_139
+  - first:
+      213: 8828043177166520010
+    second: GreenMan_140
+  - first:
+      213: 5834288574147109678
+    second: GreenMan_141
+  - first:
+      213: 317349994452020436
+    second: GreenMan_142
+  - first:
+      213: -1800906857749237463
+    second: GreenMan_143
+  - first:
+      213: 8964917678535669895
+    second: GreenMan_144
+  - first:
+      213: 2609852090270139210
+    second: GreenMan_145
+  - first:
+      213: 1783500141969198981
+    second: GreenMan_146
+  - first:
+      213: -3125938863760410534
+    second: GreenMan_147
+  - first:
+      213: 6893359852366298126
+    second: GreenMan_148
+  - first:
+      213: 2609281648782455154
+    second: GreenMan_149
+  - first:
+      213: 512668248308199919
+    second: GreenMan_150
+  - first:
+      213: -1788975587379656144
+    second: GreenMan_151
+  - first:
+      213: -808425238293815099
+    second: GreenMan_152
+  - first:
+      213: -3931106173986300766
+    second: GreenMan_153
+  - first:
+      213: -3223581202750262753
+    second: GreenMan_154
+  - first:
+      213: 1373002115843017825
+    second: GreenMan_155
+  - first:
+      213: -110910070652569551
+    second: GreenMan_156
+  - first:
+      213: 4411583611299999989
+    second: GreenMan_157
+  - first:
+      213: -8026410138777033441
+    second: GreenMan_158
+  - first:
+      213: -235347979064594268
+    second: GreenMan_159
+  - first:
+      213: -7619905406433582593
+    second: GreenMan_160
+  - first:
+      213: -3944130119032530231
+    second: GreenMan_161
+  - first:
+      213: 6184706963111953400
+    second: GreenMan_162
+  - first:
+      213: 4932411548270313215
+    second: GreenMan_163
+  - first:
+      213: -1452549416576904103
+    second: GreenMan_164
+  - first:
+      213: 553050036259116857
+    second: GreenMan_165
+  - first:
+      213: 2709824999546230595
+    second: GreenMan_166
+  - first:
+      213: -364421879847054290
+    second: GreenMan_167
+  - first:
+      213: -656016521803426857
+    second: GreenMan_168
+  - first:
+      213: -3032917348221904080
+    second: GreenMan_169
+  - first:
+      213: 2170980576417519188
+    second: GreenMan_170
+  - first:
+      213: 1202417419991255917
+    second: GreenMan_171
+  - first:
+      213: -6765014531372580971
+    second: GreenMan_172
+  - first:
+      213: 5409038128631852849
+    second: GreenMan_173
+  - first:
+      213: 7657804159573586344
+    second: GreenMan_174
+  - first:
+      213: -3349388684392251261
+    second: GreenMan_175
+  - first:
+      213: 1126997256940650790
+    second: GreenMan_176
+  - first:
+      213: -4407851566725891477
+    second: GreenMan_177
+  - first:
+      213: 5010526469102042757
+    second: GreenMan_178
+  - first:
+      213: 6665936720186985788
+    second: GreenMan_179
+  - first:
+      213: -2669597459509976771
+    second: GreenMan_180
+  - first:
+      213: -4731329969982575068
+    second: GreenMan_181
+  - first:
+      213: 4254035788972259110
+    second: GreenMan_182
+  - first:
+      213: -1646646284871374915
+    second: GreenMan_183
+  - first:
+      213: -1844357209650455493
+    second: GreenMan_184
+  - first:
+      213: 6092110501384509404
+    second: GreenMan_185
+  - first:
+      213: 3587448656032705583
+    second: GreenMan_186
+  - first:
+      213: 782340093848986784
+    second: GreenMan_187
+  - first:
+      213: -377290702614417582
+    second: GreenMan_188
+  - first:
+      213: 6066328836193688302
+    second: GreenMan_189
+  - first:
+      213: -2313347889342268238
+    second: GreenMan_190
+  - first:
+      213: 1516472737990009189
+    second: GreenMan_191
+  - first:
+      213: -6572337040683813931
+    second: GreenMan_192
+  - first:
+      213: -5017722090105356138
+    second: GreenMan_193
+  - first:
+      213: -5826963285949455183
+    second: GreenMan_194
+  - first:
+      213: 43472906121503591
+    second: GreenMan_195
+  - first:
+      213: 2236033933618249450
+    second: GreenMan_196
+  - first:
+      213: 7676971210837314767
+    second: GreenMan_197
+  - first:
+      213: 4020662311942719755
+    second: GreenMan_198
+  - first:
+      213: -4539193892968819872
+    second: GreenMan_199
+  - first:
+      213: 9064119333081043103
+    second: GreenMan_200
+  - first:
+      213: 8246466315452522672
+    second: GreenMan_201
+  - first:
+      213: -3371062077969145476
+    second: GreenMan_202
+  - first:
+      213: 440522330575955473
+    second: GreenMan_203
+  - first:
+      213: 8212321255076492370
+    second: GreenMan_204
+  - first:
+      213: 6845360755915748749
+    second: GreenMan_205
+  - first:
+      213: -4703579007573407950
+    second: GreenMan_206
+  - first:
+      213: -8062336705996329888
+    second: GreenMan_207
+  - first:
+      213: -7035970292276097458
+    second: GreenMan_208
+  - first:
+      213: -2569453362707218432
+    second: GreenMan_209
+  - first:
+      213: -7269859120401978939
+    second: GreenMan_210
+  - first:
+      213: -7596980919443020768
+    second: GreenMan_211
+  - first:
+      213: -521080739673528161
+    second: GreenMan_212
+  - first:
+      213: -5663871922079002475
+    second: GreenMan_213
+  - first:
+      213: -5391049486334263452
+    second: GreenMan_214
+  - first:
+      213: 7710478303104624446
+    second: GreenMan_215
+  - first:
+      213: -7051501260458671967
+    second: GreenMan_216
+  - first:
+      213: 2303580107418248295
+    second: GreenMan_217
+  - first:
+      213: -2589838588178406260
+    second: GreenMan_218
+  - first:
+      213: 2310175362594456253
+    second: GreenMan_219
+  - first:
+      213: 2277960029043680906
+    second: GreenMan_220
+  - first:
+      213: 5367964165795319867
+    second: GreenMan_221
+  - first:
+      213: -8197279003641077846
+    second: GreenMan_222
+  - first:
+      213: 7740423552962364568
+    second: GreenMan_223
+  - first:
+      213: 6412442318342792152
+    second: GreenMan_224
+  - first:
+      213: -880840310071164763
+    second: GreenMan_225
+  - first:
+      213: 2889048435177642679
+    second: GreenMan_226
+  - first:
+      213: -4468567043560641843
+    second: GreenMan_227
+  - first:
+      213: 8416946152923463009
+    second: GreenMan_228
+  - first:
+      213: -363498715078819247
+    second: GreenMan_229
+  - first:
+      213: -7126314383295780354
+    second: GreenMan_230
+  - first:
+      213: -7696023948166328364
+    second: GreenMan_231
+  - first:
+      213: 4127789299365319074
+    second: GreenMan_232
+  - first:
+      213: 3970888060204850431
+    second: GreenMan_233
+  - first:
+      213: -596311451099325061
+    second: GreenMan_234
+  - first:
+      213: 2147004942189693587
+    second: GreenMan_235
+  - first:
+      213: 4312766443945976551
+    second: GreenMan_236
+  - first:
+      213: 5006248221697689144
+    second: GreenMan_237
+  - first:
+      213: -1184185156481350805
+    second: GreenMan_238
+  - first:
+      213: 8807661804789540012
+    second: GreenMan_239
+  - first:
+      213: 2097711370081683790
+    second: GreenMan_240
+  - first:
+      213: -3802613046594471758
+    second: GreenMan_241
+  - first:
+      213: -2580821127189916038
+    second: GreenMan_242
+  - first:
+      213: 9006944617172646292
+    second: GreenMan_243
+  - first:
+      213: 3159073912882310947
+    second: GreenMan_244
+  - first:
+      213: -2839798301147509840
+    second: GreenMan_245
+  - first:
+      213: -193832573898977058
+    second: GreenMan_246
+  - first:
+      213: 8318530936990077413
+    second: GreenMan_247
+  - first:
+      213: 7319110513331455521
+    second: GreenMan_248
+  - first:
+      213: -2738505423065825995
+    second: GreenMan_249
+  - first:
+      213: -54342481100240071
+    second: GreenMan_250
+  - first:
+      213: 7577391054974229872
+    second: GreenMan_251
+  - first:
+      213: 8453767874799063822
+    second: GreenMan_252
+  - first:
+      213: -4335175914037143055
+    second: GreenMan_253
+  - first:
+      213: -4721699709076442806
+    second: GreenMan_254
+  - first:
+      213: -2579367097158492778
+    second: GreenMan_255
+  - first:
+      213: -357745370323968330
+    second: GreenMan_256
+  - first:
+      213: -6323815136213056766
+    second: GreenMan_257
+  - first:
+      213: 575323098064976623
+    second: GreenMan_258
+  - first:
+      213: 5665794735218721062
+    second: GreenMan_259
+  - first:
+      213: 1308511117805416339
+    second: GreenMan_260
+  - first:
+      213: -7788420892939326880
+    second: GreenMan_261
+  - first:
+      213: -6683602568841465567
+    second: GreenMan_262
+  - first:
+      213: 2249370259045193431
+    second: GreenMan_263
+  - first:
+      213: -5757903527321080826
+    second: GreenMan_264
+  - first:
+      213: -1246155119768881387
+    second: GreenMan_265
+  - first:
+      213: 8696115189689918725
+    second: GreenMan_266
+  - first:
+      213: -5505766539479434434
+    second: GreenMan_267
+  - first:
+      213: -5884941685015700242
+    second: GreenMan_268
+  - first:
+      213: -7549155579182490048
+    second: GreenMan_269
+  - first:
+      213: -6856337895410191961
+    second: GreenMan_270
+  - first:
+      213: -3461540702125637513
+    second: GreenMan_271
+  - first:
+      213: -3947569201559617137
+    second: GreenMan_272
+  - first:
+      213: 1305157629906628732
+    second: GreenMan_273
+  - first:
+      213: 5616373095775635761
+    second: GreenMan_274
+  - first:
+      213: 5318385413521796808
+    second: GreenMan_275
+  - first:
+      213: -4837332961194864511
+    second: GreenMan_276
+  - first:
+      213: -7105074948667915017
+    second: GreenMan_277
+  - first:
+      213: 6495614956530598716
+    second: GreenMan_278
+  - first:
+      213: -1014815060948902730
+    second: GreenMan_279
+  - first:
+      213: 7629129161519403794
+    second: GreenMan_280
+  - first:
+      213: -5506061214512714921
+    second: GreenMan_281
+  - first:
+      213: 3015962189377843437
+    second: GreenMan_282
+  - first:
+      213: -8861068781982044345
+    second: GreenMan_283
+  - first:
+      213: 7577777341343650484
+    second: GreenMan_284
+  - first:
+      213: 3097342565044338609
+    second: GreenMan_285
+  - first:
+      213: -3859566313683691346
+    second: GreenMan_286
+  - first:
+      213: 5596355873438916925
+    second: GreenMan_287
+  - first:
+      213: -361370666790979096
+    second: GreenMan_288
+  - first:
+      213: -5334921706577296890
+    second: GreenMan_289
+  - first:
+      213: 4301240782148802359
+    second: GreenMan_290
+  - first:
+      213: 2480041488704488349
+    second: GreenMan_291
+  - first:
+      213: 3160947743970450356
+    second: GreenMan_292
+  - first:
+      213: 6497719799548874041
+    second: GreenMan_293
+  - first:
+      213: -4214902099758776048
+    second: GreenMan_294
+  - first:
+      213: -3869044946565499643
+    second: GreenMan_295
+  - first:
+      213: 1578312193043704909
+    second: GreenMan_296
+  - first:
+      213: 8074362849839363414
+    second: GreenMan_297
+  - first:
+      213: -174976034120846700
+    second: GreenMan_298
+  - first:
+      213: -4763210842962701645
+    second: GreenMan_299
+  - first:
+      213: 5300421732682167092
+    second: GreenMan_300
+  - first:
+      213: 2723773221059914849
+    second: GreenMan_301
+  - first:
+      213: -1518078251842147998
+    second: GreenMan_302
+  - first:
+      213: -4082184316372702389
+    second: GreenMan_303
+  - first:
+      213: 7334872022987935364
+    second: GreenMan_304
+  - first:
+      213: 2877933493896775295
+    second: GreenMan_305
+  - first:
+      213: 172863453307584765
+    second: GreenMan_306
+  - first:
+      213: 4706277169424548273
+    second: GreenMan_307
+  - first:
+      213: 3077450143343749944
+    second: GreenMan_308
+  - first:
+      213: -7195444892071288871
+    second: GreenMan_309
+  - first:
+      213: -6262078847202620009
+    second: GreenMan_310
+  - first:
+      213: -5783099116517024176
+    second: GreenMan_311
+  - first:
+      213: 4279539587964628028
+    second: GreenMan_312
+  - first:
+      213: -8522407117262168322
+    second: GreenMan_313
+  - first:
+      213: -2746591213930774443
+    second: GreenMan_314
+  - first:
+      213: -7957673096792999186
+    second: GreenMan_315
+  - first:
+      213: -1839954680899596022
+    second: GreenMan_316
+  - first:
+      213: 1394513631419897119
+    second: GreenMan_317
+  - first:
+      213: 9071594637930836102
+    second: GreenMan_318
+  - first:
+      213: 6328708482445077456
+    second: GreenMan_319
+  - first:
+      213: -5199650153056153829
+    second: GreenMan_320
+  - first:
+      213: 8188040070254444808
+    second: GreenMan_321
+  - first:
+      213: 705812447592458675
+    second: GreenMan_322
+  - first:
+      213: -3130882441783218168
+    second: GreenMan_323
+  - first:
+      213: -5117521497932486732
+    second: GreenMan_324
+  - first:
+      213: -8459944638613818010
+    second: GreenMan_325
+  - first:
+      213: 4438943049142438164
+    second: GreenMan_326
+  - first:
+      213: 8090547608943089608
+    second: GreenMan_327
+  - first:
+      213: 7117740253325696420
+    second: GreenMan_328
+  - first:
+      213: 9092209792485385554
+    second: GreenMan_329
+  - first:
+      213: 4266802765579178843
+    second: GreenMan_330
+  - first:
+      213: -4371602426265300874
+    second: GreenMan_331
+  - first:
+      213: -1765689972099994875
+    second: GreenMan_332
+  - first:
+      213: -5846044009920682542
+    second: GreenMan_333
+  - first:
+      213: 2849519842577934094
+    second: GreenMan_334
+  - first:
+      213: 2997500355874292998
+    second: GreenMan_335
+  - first:
+      213: 6227467248126962865
+    second: GreenMan_336
+  - first:
+      213: 5573670769015983541
+    second: GreenMan_337
+  - first:
+      213: -4307612787989523988
+    second: GreenMan_338
+  - first:
+      213: -6028986243010983225
+    second: GreenMan_339
+  - first:
+      213: 963821676800049872
+    second: GreenMan_340
+  - first:
+      213: -4384722520485064126
+    second: GreenMan_341
+  - first:
+      213: -4787884935742881622
+    second: GreenMan_342
+  - first:
+      213: -4540079740599771565
+    second: GreenMan_343
+  - first:
+      213: -4375553179223863225
+    second: GreenMan_344
+  - first:
+      213: 4119207296749672482
+    second: GreenMan_345
+  - first:
+      213: -2818401400620820788
+    second: GreenMan_346
+  - first:
+      213: -8053498674085483026
+    second: GreenMan_347
+  - first:
+      213: -5604176552786682273
+    second: GreenMan_348
+  - first:
+      213: 8970044907611822978
+    second: GreenMan_349
+  - first:
+      213: 1823291320377377572
+    second: GreenMan_350
+  - first:
+      213: 6651507839197837998
+    second: GreenMan_351
+  - first:
+      213: 7012038302580984580
+    second: GreenMan_352
+  - first:
+      213: -3466412873814405274
+    second: GreenMan_353
+  - first:
+      213: -5223228577998523868
+    second: GreenMan_354
+  - first:
+      213: -9058451753030860429
+    second: GreenMan_355
+  - first:
+      213: -3162948331654227242
+    second: GreenMan_356
+  - first:
+      213: 9011657978850399120
+    second: GreenMan_357
+  - first:
+      213: 1628938601717300259
+    second: GreenMan_358
+  - first:
+      213: 6449592079043749420
+    second: GreenMan_359
+  - first:
+      213: 6093261862142551466
+    second: GreenMan_360
+  - first:
+      213: 5816204889347032968
+    second: GreenMan_361
+  - first:
+      213: -7680931607816778494
+    second: GreenMan_362
+  - first:
+      213: -1888031117772192293
+    second: GreenMan_363
+  - first:
+      213: 7550773567916679416
+    second: GreenMan_364
+  - first:
+      213: 8577298613169742286
+    second: GreenMan_365
+  - first:
+      213: -5547617566865393351
+    second: GreenMan_366
+  - first:
+      213: 8738619366434399827
+    second: GreenMan_367
+  - first:
+      213: -6504802270495797222
+    second: GreenMan_368
+  - first:
+      213: -8786748590165615709
+    second: GreenMan_369
+  - first:
+      213: -8037908135822694586
+    second: GreenMan_370
+  - first:
+      213: -8021925030660468811
+    second: GreenMan_371
+  - first:
+      213: -6430963949515878371
+    second: GreenMan_372
+  - first:
+      213: -9093274357577281760
+    second: GreenMan_373
+  - first:
+      213: -8522947985901229347
+    second: GreenMan_374
+  - first:
+      213: 5139838823089546318
+    second: GreenMan_375
+  - first:
+      213: 4914055710472612007
+    second: GreenMan_376
+  - first:
+      213: -8330783772016800729
+    second: GreenMan_377
+  - first:
+      213: 3016008610773079752
+    second: GreenMan_378
+  - first:
+      213: -8802713466240371658
+    second: GreenMan_379
+  - first:
+      213: -7977211780357961638
+    second: GreenMan_380
+  - first:
+      213: -721554627365926186
+    second: GreenMan_381
+  - first:
+      213: -1965539421960333675
+    second: GreenMan_382
+  - first:
+      213: -3053805404689248054
+    second: GreenMan_383
+  - first:
+      213: 8551885374765109222
+    second: GreenMan_384
+  - first:
+      213: 2860277076749686442
+    second: GreenMan_385
+  - first:
+      213: -4794134642844873146
+    second: GreenMan_386
+  - first:
+      213: 2464079080570086713
+    second: GreenMan_387
+  - first:
+      213: -3014912983797602996
+    second: GreenMan_388
+  - first:
+      213: 7398125812953084930
+    second: GreenMan_389
+  - first:
+      213: 4763345511248339249
+    second: GreenMan_390
+  - first:
+      213: -3540396521879443562
+    second: GreenMan_391
+  - first:
+      213: 5704687642167022733
+    second: GreenMan_392
+  - first:
+      213: 5793397853982014144
+    second: GreenMan_393
+  - first:
+      213: -6606460818761054842
+    second: GreenMan_394
+  - first:
+      213: 5461870884059655924
+    second: GreenMan_395
+  - first:
+      213: 527427437055757586
+    second: GreenMan_396
+  - first:
+      213: -1723538829557342870
+    second: GreenMan_397
+  - first:
+      213: -5186844074701534248
+    second: GreenMan_398
+  - first:
+      213: 6357022861460490626
+    second: GreenMan_399
+  - first:
+      213: 1098296571821441165
+    second: GreenMan_400
+  - first:
+      213: 5428834234461161229
+    second: GreenMan_401
+  - first:
+      213: 8136318302031333047
+    second: GreenMan_402
+  - first:
+      213: 6675080389766292219
+    second: GreenMan_403
+  - first:
+      213: -4194765149147320323
+    second: GreenMan_404
+  - first:
+      213: 7837077200652341379
+    second: GreenMan_405
+  - first:
+      213: -4821990753062733924
+    second: GreenMan_406
+  - first:
+      213: -4477009339973545673
+    second: GreenMan_407
+  - first:
+      213: 7034627822549110146
+    second: GreenMan_408
+  - first:
+      213: -1889775583110876817
+    second: GreenMan_409
+  - first:
+      213: 851136465779856076
+    second: GreenMan_410
+  - first:
+      213: -3851445422741193619
+    second: GreenMan_411
+  - first:
+      213: -8975228442679296358
+    second: GreenMan_412
+  - first:
+      213: 4872448777942897193
+    second: GreenMan_413
+  - first:
+      213: -1420686511310151475
+    second: GreenMan_414
+  - first:
+      213: -5127425708383433931
+    second: GreenMan_415
+  - first:
+      213: -3213832459523265358
+    second: GreenMan_416
+  - first:
+      213: -6130441251921259754
+    second: GreenMan_417
+  - first:
+      213: -6512802449469791118
+    second: GreenMan_418
+  - first:
+      213: 2085259443683945448
+    second: GreenMan_419
+  - first:
+      213: -8683827436916424295
+    second: GreenMan_420
+  - first:
+      213: 195067341995276542
+    second: GreenMan_421
+  - first:
+      213: -5820990882847565653
+    second: GreenMan_422
+  - first:
+      213: -7664554474390586100
+    second: GreenMan_423
+  - first:
+      213: -811851733085585821
+    second: GreenMan_424
+  - first:
+      213: -78481660323776856
+    second: GreenMan_425
+  - first:
+      213: 2751135120511965249
+    second: GreenMan_426
+  - first:
+      213: 7937349782506525894
+    second: GreenMan_427
+  - first:
+      213: -5798075910667044601
+    second: GreenMan_428
+  - first:
+      213: 2608330270638380654
+    second: GreenMan_429
+  - first:
+      213: 2901766882276753929
+    second: GreenMan_430
+  - first:
+      213: 756452338387282820
+    second: GreenMan_431
+  - first:
+      213: -8410238357003292497
+    second: GreenMan_432
+  - first:
+      213: 2031735686580429704
+    second: GreenMan_433
+  - first:
+      213: 5588632537220128992
+    second: GreenMan_434
+  - first:
+      213: -6250539969024497604
+    second: GreenMan_435
+  - first:
+      213: 2080480379443597232
+    second: GreenMan_436
+  - first:
+      213: 6789223097965647338
+    second: GreenMan_437
+  - first:
+      213: -1463077081801031781
+    second: GreenMan_438
+  - first:
+      213: -2705878267767874491
+    second: GreenMan_439
+  - first:
+      213: 2226567420592462895
+    second: GreenMan_440
+  - first:
+      213: 4868996205804584466
+    second: GreenMan_441
+  - first:
+      213: -5167963375453060570
+    second: GreenMan_442
+  - first:
+      213: -3296649001796908657
+    second: GreenMan_443
+  - first:
+      213: 7795326537672454256
+    second: GreenMan_444
+  - first:
+      213: -1889995896771519983
+    second: GreenMan_445
+  - first:
+      213: -3672597373940419357
+    second: GreenMan_446
+  - first:
+      213: 4410197938388073766
+    second: GreenMan_447
+  - first:
+      213: -7677375892675543243
+    second: GreenMan_448
+  - first:
+      213: -6279623550107103525
+    second: GreenMan_449
+  - first:
+      213: -2434881201873284191
+    second: GreenMan_450
+  - first:
+      213: -1730317255151484984
+    second: GreenMan_451
+  - first:
+      213: 8001531998136706644
+    second: GreenMan_452
+  - first:
+      213: -1870125622478146139
+    second: GreenMan_453
+  - first:
+      213: 285746525836866406
+    second: GreenMan_454
+  - first:
+      213: 5829857960339792956
+    second: GreenMan_455
+  - first:
+      213: -3368181109997019904
+    second: GreenMan_456
+  - first:
+      213: 8137547423446713911
+    second: GreenMan_457
+  - first:
+      213: 309845961318163057
+    second: GreenMan_458
+  - first:
+      213: -1822662986258870311
+    second: GreenMan_459
+  - first:
+      213: -6746641592474352724
+    second: GreenMan_460
+  - first:
+      213: -1657302179748867357
+    second: GreenMan_461
+  - first:
+      213: -73579424171767187
+    second: GreenMan_462
+  - first:
+      213: -1739827201581946935
+    second: GreenMan_463
+  - first:
+      213: 5597806699412341315
+    second: GreenMan_464
+  - first:
+      213: 7746681008889928870
+    second: GreenMan_465
+  - first:
+      213: 564087044337106076
+    second: GreenMan_466
+  - first:
+      213: -7320817081617315178
+    second: GreenMan_467
+  - first:
+      213: -6434498334458015032
+    second: GreenMan_468
+  - first:
+      213: 769220386896018335
+    second: GreenMan_469
+  - first:
+      213: -5486150671599286062
+    second: GreenMan_470
+  - first:
+      213: 2044910078146506514
+    second: GreenMan_471
+  - first:
+      213: 3012706289315608469
+    second: GreenMan_472
+  - first:
+      213: 7781234182015762254
+    second: GreenMan_473
+  - first:
+      213: 384286862324886370
+    second: GreenMan_474
+  - first:
+      213: -8525503196590631761
+    second: GreenMan_475
+  - first:
+      213: 2685094173038682927
+    second: GreenMan_476
+  - first:
+      213: -8538762166584098908
+    second: GreenMan_477
+  - first:
+      213: -9135486091960089230
+    second: GreenMan_478
+  - first:
+      213: -5930842403828907647
+    second: GreenMan_479
+  - first:
+      213: -9007702836287707749
+    second: GreenMan_480
+  - first:
+      213: -2232426176088573503
+    second: GreenMan_481
+  - first:
+      213: -3607357531323553639
+    second: GreenMan_482
+  - first:
+      213: 6542088388887278909
+    second: GreenMan_483
+  - first:
+      213: 5564337229600585408
+    second: GreenMan_484
+  - first:
+      213: 8242974032959278132
+    second: GreenMan_485
+  - first:
+      213: -2860295083280628635
+    second: GreenMan_486
+  - first:
+      213: -6226561282207791644
+    second: GreenMan_487
+  - first:
+      213: -299074162220559912
+    second: GreenMan_488
+  - first:
+      213: 9043484065352447447
+    second: GreenMan_489
+  - first:
+      213: 6457996724592014628
+    second: GreenMan_490
+  - first:
+      213: 3704699837338695397
+    second: GreenMan_491
+  - first:
+      213: -6958541518148213720
+    second: GreenMan_492
+  - first:
+      213: -2548682979480306842
+    second: GreenMan_493
+  - first:
+      213: 4904307187793864239
+    second: GreenMan_494
+  - first:
+      213: 1970406479914164437
+    second: GreenMan_495
+  - first:
+      213: -5934554704318767027
+    second: GreenMan_496
+  - first:
+      213: -5068403845385585826
+    second: GreenMan_497
+  - first:
+      213: 7929959143204699852
+    second: GreenMan_498
+  - first:
+      213: -5964616694579197903
+    second: GreenMan_499
+  - first:
+      213: -6316330936256346828
+    second: GreenMan_500
+  - first:
+      213: -1136869629743373826
+    second: GreenMan_501
+  - first:
+      213: -5014530754320504312
+    second: GreenMan_502
+  - first:
+      213: -1830531504054025503
+    second: GreenMan_503
+  - first:
+      213: -5531305982174957201
+    second: GreenMan_504
+  - first:
+      213: 3333302231996192167
+    second: GreenMan_505
+  - first:
+      213: 4651010634907407061
+    second: GreenMan_506
+  - first:
+      213: -5738346906219559345
+    second: GreenMan_507
+  - first:
+      213: 7067280250674833733
+    second: GreenMan_508
+  - first:
+      213: -6750067230074566832
+    second: GreenMan_509
+  - first:
+      213: 3660431255845190546
+    second: GreenMan_510
+  - first:
+      213: 3371474652007896386
+    second: GreenMan_511
+  - first:
+      213: -1387603311917266798
+    second: GreenMan_512
+  - first:
+      213: -8496364021724594203
+    second: GreenMan_513
+  - first:
+      213: -8121832676995430741
+    second: GreenMan_514
+  - first:
+      213: -5643580842026140392
+    second: GreenMan_515
+  - first:
+      213: -3749638985240436829
+    second: GreenMan_516
+  - first:
+      213: 2713024328726670248
+    second: GreenMan_517
+  - first:
+      213: 7864752424257225508
+    second: GreenMan_518
+  - first:
+      213: -2575454446909147677
+    second: GreenMan_519
+  - first:
+      213: 5472078996520925362
+    second: GreenMan_520
+  - first:
+      213: 4334172808985795576
+    second: GreenMan_521
+  - first:
+      213: -8896736821528131633
+    second: GreenMan_522
+  - first:
+      213: 7605040397338460409
+    second: GreenMan_523
+  - first:
+      213: 2076120792434075639
+    second: GreenMan_524
+  - first:
+      213: 355180059935536798
+    second: GreenMan_525
+  - first:
+      213: 6568180521403077644
+    second: GreenMan_526
+  - first:
+      213: -2964364212574605120
+    second: GreenMan_527
+  - first:
+      213: -914525284520371219
+    second: GreenMan_528
+  - first:
+      213: -661881464641077660
+    second: GreenMan_529
+  - first:
+      213: -2860571239000863601
+    second: GreenMan_530
+  - first:
+      213: 785803329118162489
+    second: GreenMan_531
+  - first:
+      213: 2360719878046353200
+    second: GreenMan_532
+  - first:
+      213: 3201273784397643479
+    second: GreenMan_533
+  - first:
+      213: 5773921021286751950
+    second: GreenMan_534
+  - first:
+      213: -2271950876953900138
+    second: GreenMan_535
+  - first:
+      213: 4373384330901813943
+    second: GreenMan_536
+  - first:
+      213: 3127747837834923530
+    second: GreenMan_537
+  - first:
+      213: -255358560159242069
+    second: GreenMan_538
+  - first:
+      213: -8099853893770615552
+    second: GreenMan_539
+  - first:
+      213: 2890002305084298189
+    second: GreenMan_540
+  - first:
+      213: 847018532808202968
+    second: GreenMan_541
+  - first:
+      213: 4192464938263021944
+    second: GreenMan_542
+  - first:
+      213: -1215299057827419870
+    second: GreenMan_543
+  - first:
+      213: -4896744319128862548
+    second: GreenMan_544
+  - first:
+      213: -3387720545288746379
+    second: GreenMan_545
+  - first:
+      213: -1875768614031278488
+    second: GreenMan_546
+  - first:
+      213: 3995178496817038295
+    second: GreenMan_547
+  - first:
+      213: 5606969255987700673
+    second: GreenMan_548
+  - first:
+      213: 8307233753028896877
+    second: GreenMan_549
+  - first:
+      213: 2744272256228418937
+    second: GreenMan_550
+  - first:
+      213: 1041266723282415179
+    second: GreenMan_551
+  - first:
+      213: -2830263672269456971
+    second: GreenMan_552
+  - first:
+      213: -5802047255021798040
+    second: GreenMan_553
+  - first:
+      213: -1047025326614715049
+    second: GreenMan_554
+  - first:
+      213: -4004974001590307385
+    second: GreenMan_555
+  - first:
+      213: -7326447496148833763
+    second: GreenMan_556
+  - first:
+      213: -4811374638918447659
+    second: GreenMan_557
+  - first:
+      213: -7067930727374894858
+    second: GreenMan_558
+  - first:
+      213: 4797846253888389581
+    second: GreenMan_559
+  - first:
+      213: 8252520071239284522
+    second: GreenMan_560
+  - first:
+      213: -4291851765199831699
+    second: GreenMan_561
+  - first:
+      213: 2403459238810934556
+    second: GreenMan_562
+  - first:
+      213: 2881420774152437119
+    second: GreenMan_563
+  - first:
+      213: -3341960708697341413
+    second: GreenMan_564
+  - first:
+      213: -2340101370666783371
+    second: GreenMan_565
+  - first:
+      213: -2071402281853099659
+    second: GreenMan_566
+  - first:
+      213: 8130432310459208083
+    second: GreenMan_567
+  - first:
+      213: 7428068552853824239
+    second: GreenMan_568
+  - first:
+      213: -715200024290901460
+    second: GreenMan_569
+  - first:
+      213: -1776627906572516182
+    second: GreenMan_570
+  - first:
+      213: -1439878465882923345
+    second: GreenMan_571
+  - first:
+      213: 5457578904810499409
+    second: GreenMan_572
+  - first:
+      213: 7989679045327854379
+    second: GreenMan_573
+  - first:
+      213: -7603375832428668007
+    second: GreenMan_574
+  - first:
+      213: -7780449501847211689
+    second: GreenMan_575
+  - first:
+      213: 4918206879701694518
+    second: GreenMan_576
+  - first:
+      213: -3899913778499969965
+    second: GreenMan_577
+  - first:
+      213: -4582716470879268563
+    second: GreenMan_578
+  - first:
+      213: -5452181365957049482
+    second: GreenMan_579
+  - first:
+      213: 78279441405506815
+    second: GreenMan_580
+  - first:
+      213: -414881888425621479
+    second: GreenMan_581
+  - first:
+      213: -4763788092807655505
+    second: GreenMan_582
+  - first:
+      213: 2903298495095155761
+    second: GreenMan_583
+  - first:
+      213: 2824327025139708314
+    second: GreenMan_584
+  - first:
+      213: 7958924190333406421
+    second: GreenMan_585
+  - first:
+      213: -5607468962640680422
+    second: GreenMan_586
+  - first:
+      213: 4215165897570749526
+    second: GreenMan_587
+  - first:
+      213: 3510998814171185500
+    second: GreenMan_588
+  - first:
+      213: -4976023194464190936
+    second: GreenMan_589
+  - first:
+      213: 3785341236890652713
+    second: GreenMan_590
+  - first:
+      213: 6780856183977145326
+    second: GreenMan_591
+  - first:
+      213: 2062411325418834276
+    second: GreenMan_592
+  - first:
+      213: -7846031481845598954
+    second: GreenMan_593
+  - first:
+      213: 1273674719543094887
+    second: GreenMan_594
+  - first:
+      213: 565375314742126618
+    second: GreenMan_595
+  - first:
+      213: -7655304537685458113
+    second: GreenMan_596
+  - first:
+      213: -100124397394568414
+    second: GreenMan_597
+  - first:
+      213: 5486965713942003653
+    second: GreenMan_598
+  - first:
+      213: -1491455189039726736
+    second: GreenMan_599
+  - first:
+      213: -643021900857890560
+    second: GreenMan_600
+  - first:
+      213: -4653690452961083312
+    second: GreenMan_601
+  - first:
+      213: 9211833592193481964
+    second: GreenMan_602
+  - first:
+      213: 6293184546198510196
+    second: GreenMan_603
+  - first:
+      213: -6253463084829682109
+    second: GreenMan_604
+  - first:
+      213: -8473815111624250415
+    second: GreenMan_605
+  - first:
+      213: -332746893271446279
+    second: GreenMan_606
+  - first:
+      213: -3348636045576466569
+    second: GreenMan_607
+  - first:
+      213: -207028085247768110
+    second: GreenMan_608
+  - first:
+      213: 4156839083244578505
+    second: GreenMan_609
+  - first:
+      213: 1245973352541834744
+    second: GreenMan_610
+  - first:
+      213: 3475762709473637054
+    second: GreenMan_611
+  - first:
+      213: 1853993878960282109
+    second: GreenMan_612
+  - first:
+      213: -1744136710468651688
+    second: GreenMan_613
+  - first:
+      213: -9209483241290873810
+    second: GreenMan_614
+  - first:
+      213: -6804274036405705869
+    second: GreenMan_615
+  - first:
+      213: 2735601672395143767
+    second: GreenMan_616
+  - first:
+      213: -492145556193414085
+    second: GreenMan_617
+  - first:
+      213: 747378530836038769
+    second: GreenMan_618
+  - first:
+      213: 4902036601754572888
+    second: GreenMan_619
+  - first:
+      213: 4303803199299313206
+    second: GreenMan_620
+  - first:
+      213: 1457145050366385993
+    second: GreenMan_621
+  - first:
+      213: -8490855553640284846
+    second: GreenMan_622
+  - first:
+      213: -6394425899979933843
+    second: GreenMan_623
+  - first:
+      213: -6863068926247216973
+    second: GreenMan_624
+  - first:
+      213: -1484186613859721782
+    second: GreenMan_625
+  - first:
+      213: -4306966884171306951
+    second: GreenMan_626
+  - first:
+      213: -6138291656041606988
+    second: GreenMan_627
+  - first:
+      213: -1632223404152755751
+    second: GreenMan_628
+  - first:
+      213: -8114130909345010939
+    second: GreenMan_629
+  - first:
+      213: 2938133639185124230
+    second: GreenMan_630
+  - first:
+      213: 3337784975611764171
+    second: GreenMan_631
+  - first:
+      213: 4378333135618598923
+    second: GreenMan_632
+  - first:
+      213: 5417800038226663525
+    second: GreenMan_633
+  - first:
+      213: -5068716896320406071
+    second: GreenMan_634
+  - first:
+      213: 7733851985536253505
+    second: GreenMan_635
+  - first:
+      213: -6957862025859028916
+    second: GreenMan_636
+  - first:
+      213: 3975496697172720371
+    second: GreenMan_637
+  - first:
+      213: 7939265082019792095
+    second: GreenMan_638
+  - first:
+      213: -6391570709740870303
+    second: GreenMan_639
+  - first:
+      213: -579453134028733048
+    second: GreenMan_640
+  - first:
+      213: 3756245013645660406
+    second: GreenMan_641
+  - first:
+      213: -6407310917594651577
+    second: GreenMan_642
+  - first:
+      213: 4837984309297091813
+    second: GreenMan_643
+  - first:
+      213: 1623333872461241792
+    second: GreenMan_644
+  - first:
+      213: 6312549679360438755
+    second: GreenMan_645
+  - first:
+      213: 6876909636908315177
+    second: GreenMan_646
+  - first:
+      213: -6781344729089248513
+    second: GreenMan_647
+  - first:
+      213: 5659851176981955793
+    second: GreenMan_648
+  - first:
+      213: 2407819150782922041
+    second: GreenMan_649
+  - first:
+      213: -4943316905947813227
+    second: GreenMan_650
+  - first:
+      213: 5174246538718269460
+    second: GreenMan_651
+  - first:
+      213: 324407773663295113
+    second: GreenMan_652
+  - first:
+      213: -7405526569395820658
+    second: GreenMan_653
+  - first:
+      213: 2797653770466250730
+    second: GreenMan_654
+  - first:
+      213: -2417155300077271193
+    second: GreenMan_655
+  - first:
+      213: 5388701362692184260
+    second: GreenMan_656
+  - first:
+      213: 514710476750287047
+    second: GreenMan_657
+  - first:
+      213: 509048903493069496
+    second: GreenMan_658
+  - first:
+      213: -7942631497253864626
+    second: GreenMan_659
+  - first:
+      213: -7008106862168171737
+    second: GreenMan_660
+  - first:
+      213: -1446526286661436024
+    second: GreenMan_661
+  - first:
+      213: -7051514224333833900
+    second: GreenMan_662
+  - first:
+      213: -3871957409073271936
+    second: GreenMan_663
+  - first:
+      213: 486416414794246261
+    second: GreenMan_664
+  - first:
+      213: 6710074238941023269
+    second: GreenMan_665
+  - first:
+      213: -1440671665772455467
+    second: GreenMan_666
+  - first:
+      213: 2262936647198513671
+    second: GreenMan_667
+  - first:
+      213: -3507436442086355823
+    second: GreenMan_668
+  - first:
+      213: -8577225497574475634
+    second: GreenMan_669
+  - first:
+      213: 3244843732870051378
+    second: GreenMan_670
+  - first:
+      213: 8653112403938050429
+    second: GreenMan_671
+  - first:
+      213: 1566261750392590110
+    second: GreenMan_672
+  - first:
+      213: -9138629889962715908
+    second: GreenMan_673
+  - first:
+      213: -69228344599337867
+    second: GreenMan_674
+  - first:
+      213: -4481039235528989100
+    second: GreenMan_675
+  - first:
+      213: 6724024251679846952
+    second: GreenMan_676
+  - first:
+      213: 7876533464849134364
+    second: GreenMan_677
+  - first:
+      213: 5733552564533435417
+    second: GreenMan_678
+  - first:
+      213: -8830772846148918724
+    second: GreenMan_679
+  - first:
+      213: -2822874739691427196
+    second: GreenMan_680
+  - first:
+      213: 526307349544195080
+    second: GreenMan_681
+  - first:
+      213: 6088278694706104309
+    second: GreenMan_682
+  - first:
+      213: -4214464656227422042
+    second: GreenMan_683
+  - first:
+      213: -8179138469853913869
+    second: GreenMan_684
+  - first:
+      213: -7899216461937305758
+    second: GreenMan_685
+  - first:
+      213: 1192350366515760213
+    second: GreenMan_686
+  - first:
+      213: 7285817456151964566
+    second: GreenMan_687
+  - first:
+      213: 1927325746012148868
+    second: GreenMan_688
+  - first:
+      213: -4732979856268851935
+    second: GreenMan_689
+  - first:
+      213: 3960193580752099832
+    second: GreenMan_690
+  - first:
+      213: 107550055089360306
+    second: GreenMan_691
+  - first:
+      213: 32900082365297846
+    second: GreenMan_692
+  - first:
+      213: 1282859948098655591
+    second: GreenMan_693
+  - first:
+      213: 7202092869296648131
+    second: GreenMan_694
+  - first:
+      213: -2775507375701968324
+    second: GreenMan_695
+  - first:
+      213: 6483012324065023643
+    second: GreenMan_696
+  - first:
+      213: -263947914039791584
+    second: GreenMan_697
+  - first:
+      213: 2378371447829749087
+    second: GreenMan_698
+  - first:
+      213: -4891485063089332094
+    second: GreenMan_699
+  - first:
+      213: -8923183409806056599
+    second: GreenMan_700
+  - first:
+      213: 6158500583464550613
+    second: GreenMan_701
+  - first:
+      213: -194246212183670363
+    second: GreenMan_702
+  - first:
+      213: -5058397075435633172
+    second: GreenMan_703
+  - first:
+      213: 7007246189493376134
+    second: GreenMan_704
+  - first:
+      213: -3513242760835346806
+    second: GreenMan_705
+  - first:
+      213: -7933127216881003074
+    second: GreenMan_706
+  - first:
+      213: 803117386535261729
+    second: GreenMan_707
+  - first:
+      213: -8057049132756335387
+    second: GreenMan_708
+  - first:
+      213: -6974548477208617218
+    second: GreenMan_709
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GreenMan_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1280
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73cf7503c7f3d0f20800000000000000
+      internalID: 3390435897099418679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1280
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36741e0f502b7f300800000000000000
+      internalID: 285892839947192163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1280
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0ab7f10f20610150800000000000000
+      internalID: 5837052347061615116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1280
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc0681f6d257cecd0800000000000000
+      internalID: -2527516452863844149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1280
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 092dfcbb2a50f3150800000000000000
+      internalID: 5854404237098734224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1280
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5ca27b1917fbf590800000000000000
+      internalID: -7639240655697171362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1280
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b602a8b4635a4f80800000000000000
+      internalID: -8121587285949806919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1216
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26b2607a4974b9910800000000000000
+      internalID: 1845147176121281378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_8
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1216
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a1f0df0fc5227820800000000000000
+      internalID: 2914433480115941800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_9
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1216
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b942b90f8273fd260800000000000000
+      internalID: 7124473784498332827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_10
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1216
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e303616e13183a680800000000000000
+      internalID: -8745004000109776834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_11
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1216
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00eb1f02bc3038ff0800000000000000
+      internalID: -35180201122873856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_12
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1216
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29b041cd8d2b81070800000000000000
+      internalID: 8077402576163965842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_13
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1216
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acdc3343b029289c0800000000000000
+      internalID: -3926415348295545398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1152
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e733645cbbd41010800000000000000
+      internalID: 1158792606057183202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_15
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1152
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c25a93fe57decf80800000000000000
+      internalID: -8084287478269586745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_16
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1152
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 141b77e888bb74700800000000000000
+      internalID: 524594076792107329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_17
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1152
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6b218b8aff11d230800000000000000
+      internalID: 3661743132971707246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_18
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1152
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6c0ce8a02f5a7c30800000000000000
+      internalID: 4357900183312010348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_19
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1152
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cc385febb80dc3f0800000000000000
+      internalID: -879036748999934782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_20
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1152
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c376947a41beb8640800000000000000
+      internalID: 5083415078356215612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1088
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a5dfad8edd582570800000000000000
+      internalID: 8442100711947228585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_22
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1088
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3f9f1a593a4981b0800000000000000
+      internalID: -5653906247001333956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_23
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1088
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c34ddbdd5d5fbf30800000000000000
+      internalID: 4593492802643248064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_24
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1088
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d071d54530c56970800000000000000
+      internalID: 8747609186274210008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_25
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1088
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6054187206be8d6e0800000000000000
+      internalID: -1812440051804453626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_26
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1088
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77c60fc601aafc630800000000000000
+      internalID: 3949562385751108727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_27
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1088
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6ea8d35653ca8110800000000000000
+      internalID: 1264037420972158574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1024
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31b7fcff8ec512f60800000000000000
+      internalID: 8007783768235408147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_29
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1024
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e0feea885afb78f0800000000000000
+      internalID: -541564071973031712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_30
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1024
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 752acd7d62b333fb0800000000000000
+      internalID: -4669323350636715433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_31
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1024
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5036dce487ddf0250800000000000000
+      internalID: 5913188344548647685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_32
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1024
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da09b79c1addeed60800000000000000
+      internalID: 7921512481531072685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_33
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1024
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 929feaad590a41b80800000000000000
+      internalID: -8424932437423883991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_34
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1024
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 865be35b1873c66b0800000000000000
+      internalID: -5301801631090821784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_35
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 1024
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80634f49198dfd080800000000000000
+      internalID: -9160364997267409400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba22d3137a9b6f170800000000000000
+      internalID: 8211955098293445291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_37
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bd7fc292623ac4c0800000000000000
+      internalID: -4266542298028868173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_38
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02868b1269bea5820800000000000000
+      internalID: 2907895539464431648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_39
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ded6d0591a54efb70800000000000000
+      internalID: 8934655271042379245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_40
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4737440ca3365fa0800000000000000
+      internalID: -5812401455175878835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_41
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76facf8b0dba57880800000000000000
+      internalID: -8613789799331090585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_42
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccbb02bacbc558f70800000000000000
+      internalID: 9188852580114021324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_43
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ffd32007929f3ee0800000000000000
+      internalID: -1279142591909863434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17cb2f3e816ea56a0800000000000000
+      internalID: -6459597720931615631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_45
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cae5f60440c46980800000000000000
+      internalID: -8546494794435269949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_46
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ad6e5a58a2005420800000000000000
+      internalID: 2616594305596157350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_47
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67ff6b68a58966b60800000000000000
+      internalID: 7739040524257394550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_48
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1f63a2f513d9e8e0800000000000000
+      internalID: -1663566496118116580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_49
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2c4e3b4a390ac6f0800000000000000
+      internalID: -663707849108599765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_50
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d19c233dad02e2e0800000000000000
+      internalID: -2098099438862167591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_51
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 428bd1c34d79c2750800000000000000
+      internalID: 6281562518072440868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_52
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 221beeb83dd2adf60800000000000000
+      internalID: 8059804869741949218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_53
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2a5c4e75d71854a0800000000000000
+      internalID: -6604502647824426453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_54
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d71c2c36554efc50800000000000000
+      internalID: 6700869532252903385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_55
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b6646e0b1101bf50800000000000000
+      internalID: 6895293720198145714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_56
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcd65c77612bd2d90800000000000000
+      internalID: -7120839626234434099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_57
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f304f6842c16f8c0800000000000000
+      internalID: -3965951478644603917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_58
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b90c8bde97629e50800000000000000
+      internalID: 6814623118150863286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_59
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 090dd76c65494b500800000000000000
+      internalID: 411116566415790224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69928cdb60343bdc0800000000000000
+      internalID: -3624479578870240874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_61
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d47053251c6ab8960800000000000000
+      internalID: 7605355744983320397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_62
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ec6b9b645fc65c10800000000000000
+      internalID: 2042047442548649192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_63
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0cfb7ef49c7619d0800000000000000
+      internalID: -2803916738625012723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_64
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1212268419b89c560800000000000000
+      internalID: 7334546924250472737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_65
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 687d40f9e73bfa4b0800000000000000
+      internalID: -5426921669543012474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_66
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ab12c03098ca21c0800000000000000
+      internalID: -4527585953748739166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_67
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e27ed497a71268900800000000000000
+      internalID: 686272803125454638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_68
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7faafcbd35fb36bc0800000000000000
+      internalID: -3790976094424814857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_69
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0afcf752a96862d00800000000000000
+      internalID: 947592768220286880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_70
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67d8a89216224a5e0800000000000000
+      internalID: -1899355342139388554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_71
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a5a614e607a8ca60800000000000000
+      internalID: 7694583611400824227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_72
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed5a57c5b94f7dba0800000000000000
+      internalID: -6064109425122761250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_73
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a50b19373a0772580800000000000000
+      internalID: -8851982695252512678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_74
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdc73ad13927617c0800000000000000
+      internalID: -4100964434491245345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_75
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9502dcf92104f9460800000000000000
+      internalID: 7250584373824397401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_76
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b75ab2bb08036ee30800000000000000
+      internalID: 4532363404449129851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_77
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6404cf144a0c9630800000000000000
+      internalID: 3935031462121964652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_78
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78fbb891e291f9550800000000000000
+      internalID: 6169677700308647815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_79
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c303b2d4df29bb710800000000000000
+      internalID: 1710122100136292412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_80
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbbb8e2790567af20800000000000000
+      internalID: 3433824332150258621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_81
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 666ded46ec1d9f7a0800000000000000
+      internalID: -6342807915788839322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_82
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccad636efd6728e00800000000000000
+      internalID: 1045528767515515596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_83
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49c0d7e1459748b00800000000000000
+      internalID: 829921633538739348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_84
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3795b705939db6320800000000000000
+      internalID: 2552372454022142323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_85
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43bc65bfb380cced0800000000000000
+      internalID: -2392528248327713996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_86
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7392c8511cf8dd4c0800000000000000
+      internalID: -4261091612969653961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_87
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f5462bf38d58f9f0800000000000000
+      internalID: -434494542605564429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_88
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b29cc18db3ddb7ef0800000000000000
+      internalID: -109250516841871061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_89
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1601185e3d4a0b40800000000000000
+      internalID: 5407219232772523550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_90
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cc2ff04d44373840800000000000000
+      internalID: 5203685400857488580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_91
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8332343e5a54ba10800000000000000
+      internalID: 1924262301443175307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_92
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d23b899161fe8600800000000000000
+      internalID: 472580412410639056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_93
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e32d6812802c0fd20800000000000000
+      internalID: 3310359066295325246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_94
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb5b5d80afdbfbfa0800000000000000
+      internalID: -5782694514932730434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_95
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 068d22ff443a86910800000000000000
+      internalID: 1830892765259683936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_96
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 128e70024a2f81350800000000000000
+      internalID: 5987802491315021857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_97
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 355e90bbb2bd4d8e0800000000000000
+      internalID: -1669468580979546797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_98
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1058ee37aa966e7e0800000000000000
+      internalID: -1736584425494379263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_99
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74a044c5f52ae4830800000000000000
+      internalID: 4057358844760951367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_100
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02ada1b0af4897380800000000000000
+      internalID: -8972994573096003040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_101
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5b88674b02cc2290800000000000000
+      internalID: -7913737091498341542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_102
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 783c1660059b34960800000000000000
+      internalID: 7585109950777639815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_103
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1980b114b2425bd70800000000000000
+      internalID: 9058185993720105105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_104
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07d96597d57db5dd0800000000000000
+      internalID: -2496164771979158160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_105
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 585c7b52ecc46ad60800000000000000
+      internalID: 7901087044547888517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_106
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 721f07b94fc8c4600800000000000000
+      internalID: 453892644665356583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_107
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7df0b141c8f6a840800000000000000
+      internalID: 5235145125779275135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_108
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d128f78c366f1c00800000000000000
+      internalID: 873529262898422231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_109
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be21d1ab36e9ac650800000000000000
+      internalID: 6253985183718773483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_110
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f01c40a6e61b83cf0800000000000000
+      internalID: -272272689672699633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_111
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c4c1a10d7a0da9a0800000000000000
+      internalID: -6220303978314218302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_112
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6441bc2c6f9286ba0800000000000000
+      internalID: -6095575955839183802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_113
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c2bb166605036d20800000000000000
+      internalID: 3270463279442145993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_114
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45ab6d08f418e4ec0800000000000000
+      internalID: -3580782475249010092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_115
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1747dd0bcbc8b87d0800000000000000
+      internalID: -2915081591743220623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_116
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fc70fe1f7e7ac040800000000000000
+      internalID: 4668683048167963890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_117
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d48fa23f88d13990800000000000000
+      internalID: -7407901802505468720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_118
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17a9ebf4d5ac484b0800000000000000
+      internalID: -5438999947838055823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_119
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 383f02c1b7ffc4ce0800000000000000
+      internalID: -1419478878310567037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_120
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87eba32fa2e90d4f0800000000000000
+      internalID: -805970426009567624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_121
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e3e1b87ce3c5c2e0800000000000000
+      internalID: -2106061830321216543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_122
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6c69d1048bbf0f70800000000000000
+      internalID: 9155742743108611182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_123
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79f48eb6aa2e780d0800000000000000
+      internalID: -3420516170381897833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_124
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0773b4b7898643e10800000000000000
+      internalID: 2176479524039636848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_125
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fd46c9ac9ad86b80800000000000000
+      internalID: -8401224738461561357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_126
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b2076c33a0e3b660800000000000000
+      internalID: 7400505604397531832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_127
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5853122c628727af0800000000000000
+      internalID: -400125309021506171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_128
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f63c44d4163a065c0800000000000000
+      internalID: -4224196812170017937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_129
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0455c78770fa12e0800000000000000
+      internalID: -2154145075573730294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_130
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bf905bb6254b5660800000000000000
+      internalID: 7375564847403016119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_131
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 521b2462e817b1070800000000000000
+      internalID: 8078175211960316197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_132
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5524a40416beb9510800000000000000
+      internalID: 1557096899109601877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_133
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b91f756d748a8dcf0800000000000000
+      internalID: -227246754689977957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_134
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b029a838c4a42d80800000000000000
+      internalID: -8276309035349106509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_135
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97e438a3022a4acf0800000000000000
+      internalID: -241890220666827143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_136
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95e7a530ac0602bd0800000000000000
+      internalID: -2657017359392670119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_137
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 978d30fe6498c1620800000000000000
+      internalID: 2746220810539882617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_138
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e472c7fd3f2c23c60800000000000000
+      internalID: 7796508257614047054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_139
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93294f9490663a1a0800000000000000
+      internalID: -6799478822317813191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_140
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ace32d42f72838a70800000000000000
+      internalID: 8828043177166520010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_141
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e23a82bfb8e87f050800000000000000
+      internalID: 5834288574147109678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_142
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dce8c87324776400800000000000000
+      internalID: 317349994452020436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_143
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 921ba4621c4e107e0800000000000000
+      internalID: -1800906857749237463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_144
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 788fcb56129c96c70800000000000000
+      internalID: 8964917678535669895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_145
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a43ccd406ae083420800000000000000
+      internalID: 2609852090270139210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_146
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58fcee20ee340c810800000000000000
+      internalID: 1783500141969198981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_147
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a58f8f35a2f6e94d0800000000000000
+      internalID: -3125938863760410534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_148
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0c7b3d53422aaf50800000000000000
+      internalID: 6893359852366298126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_149
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 271bf92c5d7063420800000000000000
+      internalID: 2609281648782455154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_150
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe1380c3e0d5d1700800000000000000
+      internalID: 512668248308199919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_151
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03ac3628e284c27e0800000000000000
+      internalID: -1788975587379656144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_152
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c0690c6785e7c4f0800000000000000
+      internalID: -808425238293815099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_153
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ac933d33c7e179c0800000000000000
+      internalID: -3931106173986300766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_154
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f12b171b9f98343d0800000000000000
+      internalID: -3223581202750262753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_155
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16cceae5622ed0310800000000000000
+      internalID: 1373002115843017825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_156
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1387dbcd0e7f57ef0800000000000000
+      internalID: -110910070652569551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_157
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f0b870cbe7193d30800000000000000
+      internalID: 4411583611299999989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_158
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f15e99821867c9090800000000000000
+      internalID: -8026410138777033441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_159
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a0bf3d8240ebbcf0800000000000000
+      internalID: -235347979064594268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_160
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff1a273a768a04690800000000000000
+      internalID: -7619905406433582593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_161
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ca952bbd82a349c0800000000000000
+      internalID: -3944130119032530231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_162
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f34c28073e74d550800000000000000
+      internalID: 6184706963111953400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_163
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffebfac8b22737440800000000000000
+      internalID: 4932411548270313215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_164
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9549b36600287dbe0800000000000000
+      internalID: -1452549416576904103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_165
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 937dd3ae314dca700800000000000000
+      internalID: 553050036259116857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_166
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3471d65da7b3b9520800000000000000
+      internalID: 2709824999546230595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_167
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2416572b3051faf0800000000000000
+      internalID: -364421879847054290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_168
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d39e1bf27c55e6f0800000000000000
+      internalID: -656016521803426857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_169
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03b1d1aadb9e8e5d0800000000000000
+      internalID: -3032917348221904080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_170
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45693a7f45fd02e10800000000000000
+      internalID: 2170980576417519188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_171
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6b0256d548dfa010800000000000000
+      internalID: 1202417419991255917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_172
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59f7e255027dd12a0800000000000000
+      internalID: -6765014531372580971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_173
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13f25a90583c01b40800000000000000
+      internalID: 5409038128631852849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_174
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a174e27f4cf54a60800000000000000
+      internalID: 7657804159573586344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_175
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3804614ccb49481d0800000000000000
+      internalID: -3349388684392251261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_176
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62189cab806e3af00800000000000000
+      internalID: 1126997256940650790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenMan_177
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6a77a69a5a24d2c0800000000000000
+      internalID: -4407851566725891477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
