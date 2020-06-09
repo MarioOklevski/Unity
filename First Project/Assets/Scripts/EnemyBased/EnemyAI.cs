@@ -26,7 +26,10 @@ public class EnemyAI : MonoBehaviour
     {
         Vector2 direction = Hero.transform.position - transform.position;
         float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg +90;
-        Rb.rotation = angle;
+        Rb.rotation = angle; 
+        Debug.Log(Rb.rotation);
+        Debug.Log(direction);
+        
         Movement = direction;
     }
     private void FixedUpdate()

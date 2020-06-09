@@ -19,6 +19,10 @@ public class Skeleton_Controls : MonoBehaviour
     public float WaitToReload;
     private bool reloading;
 
+    //range
+    public Transform Player;
+    public GameObject Hero;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -26,38 +30,61 @@ public class Skeleton_Controls : MonoBehaviour
         myRigidBody = GetComponent<Rigidbody2D>();
         TimeBetweenMoveCounter = Random.Range(TimeBetweenMove * 0.75f, TimeBetweenMove * 1.25f);
         TimeToMoveCounter = Random.Range(TimeToMove * 0.75f, TimeToMove * 1.25f);
+   
+        //range 
+        Hero = GameObject.Find("Player");
     }
 
     // Update is called once per frame
     void Update()
     {
-        /////////////////////MOVEMENT/////////////////
-        if (Movement)
-        {
-            TimeToMoveCounter -= Time.deltaTime;
-            myRigidBody.velocity = direction;
+        Vector2 heroDirection = Hero.transform.position - transform.position;
+        
+        bool range = (Mathf.Abs(heroDirection.x))+(Mathf.Abs(heroDirection.y)) < 10;
+        /////////////////////// RANGE ////////////////////
+        if(range){
+            myRigidBody.velocity = heroDirection;
 
-            if (TimeToMoveCounter < 0f)
+            direction = new Vector3( heroDirection.x * moveSpeed+1, heroDirection.y * moveSpeed+1, 0f);
+            LastMove = new Vector2(direction.x, direction.y);
+        }
+
+        /////////////////////MOVEMENT///////////////// Not in range
+       if(!range)
+       { 
+            if (Movement)
             {
-                Movement = false;
-                TimeBetweenMoveCounter = Random.Range(TimeBetweenMove * 0.75f, TimeBetweenMove * 1.25f);
+                TimeToMoveCounter -= Time.deltaTime;
+                myRigidBody.velocity = direction;
+
+                if (TimeToMoveCounter < 0f)
+                {
+                    Movement = false;
+                    TimeBetweenMoveCounter = Random.Range(TimeBetweenMove * 0.75f, TimeBetweenMove * 1.25f);
+                }
+            }
+            else
+            {
+                TimeBetweenMoveCounter -= Time.deltaTime;
+                myRigidBody.velocity = Vector2.zero;
+                if (TimeBetweenMoveCounter < 0f)
+                {
+                    Movement = true;
+                    TimeToMoveCounter = Random.Range(TimeToMove * 0.75f, TimeToMove * 1.25f);
+                    direction = new Vector3(Random.Range(-1f, 1f) * moveSpeed, Random.Range(-1f, 1f) * moveSpeed, 0f);
+                    LastMove = new Vector2(direction.x, direction.y);
+                }
             }
         }
-        else
-        {
-            TimeBetweenMoveCounter -= Time.deltaTime;
-            myRigidBody.velocity = Vector2.zero;
-            if (TimeBetweenMoveCounter < 0f)
-            {
-                Movement = true;
-                TimeToMoveCounter = Random.Range(TimeToMove * 0.75f, TimeToMove * 1.25f);
-                direction = new Vector3(Random.Range(-1f, 1f) * moveSpeed, Random.Range(-1f, 1f) * moveSpeed, 0f);
-                LastMove = new Vector2(direction.x, direction.y);
-            }
-        }
+
+
         anim.SetFloat("MoveX", direction.x);
         anim.SetFloat("MoveY", direction.y);
-        anim.SetBool("MovingSkeleton", Movement);
+        if(range){
+            anim.SetBool("MovingSkeleton", true);
+        }else{
+            anim.SetBool("MovingSkeleton", Movement);
+        }
         anim.SetFloat("LastMoveX", LastMove.x);
         anim.SetFloat("LastMoveY", LastMove.y);
     }
