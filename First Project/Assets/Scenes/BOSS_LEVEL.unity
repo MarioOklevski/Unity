@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -17526,7 +17526,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.0011201203, y: 0.058328778}
+  m_Offset: {x: -0.0029233173, y: 0.06547871}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -17537,7 +17537,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.61568207, y: 0.49334246}
+  m_Size: {x: 0.12809584, y: 0.23861703}
   m_EdgeRadius: 0
 --- !u!212 &1053504617
 SpriteRenderer:
@@ -17577,11 +17577,11 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 5
   m_Sprite: {fileID: 2787281954611425821, guid: 93de37a17367d694391da745f42ee406,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
+  m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 0.64, y: 0.64}
@@ -17629,14 +17629,14 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1053504613}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e3bb370840656104097aadb99ab6a1b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  EnemyMaxHealth: 0
+  EnemyMaxHealth: 100
   EnemyCurrentHealth: 0
-  ExpWhenKilled: 0
+  ExpWhenKilled: 100
 --- !u!114 &1053504621
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17644,14 +17644,15 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1053504613}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 96dfcceb265da854cb472310ddb406b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DamageToDeal: 0
-  WaitToReload: 0
-  DamageNumbers: {fileID: 0}
+  DamageToDeal: 20
+  WaitToReload: 0.7
+  DamageNumbers: {fileID: 5587805460742487813, guid: 5429555df50f346409caa0ced7694702,
+    type: 3}
 --- !u!1 &1159741389
 GameObject:
   m_ObjectHideFlags: 0
