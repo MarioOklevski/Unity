@@ -17459,6 +17459,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1160559470, guid: eea7a872d8c70c541981c065f88171ae, type: 3}
+      propertyPath: m_TagString
+      value: Myweapon
+      objectReference: {fileID: 0}
     - target: {fileID: 1160559471, guid: eea7a872d8c70c541981c065f88171ae, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.17
