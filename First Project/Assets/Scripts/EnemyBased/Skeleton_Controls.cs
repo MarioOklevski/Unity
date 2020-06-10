@@ -88,4 +88,12 @@ public class Skeleton_Controls : MonoBehaviour
         anim.SetFloat("LastMoveX", LastMove.x);
         anim.SetFloat("LastMoveY", LastMove.y);
     }
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if(other.tag == "Myweapon")
+        {
+            Vector2 diffrence = transform.position - other.transform.position;
+            transform.position = new Vector2(transform.position.x + diffrence.x, transform.position.y + diffrence.y);
+        }
+    }
 }

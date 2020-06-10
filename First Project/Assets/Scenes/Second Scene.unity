@@ -12967,6 +12967,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 138428061, guid: 3585a7b89fe768e47b8e76bb8fdf6af6, type: 3}
+      propertyPath: EnemyMaxHealth
+      value: 92
+      objectReference: {fileID: 0}
     - target: {fileID: 105538873114222098, guid: 3585a7b89fe768e47b8e76bb8fdf6af6,
         type: 3}
       propertyPath: m_Name
@@ -14112,6 +14116,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 138428061, guid: 3585a7b89fe768e47b8e76bb8fdf6af6, type: 3}
+      propertyPath: EnemyMaxHealth
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 105538873114222098, guid: 3585a7b89fe768e47b8e76bb8fdf6af6,
         type: 3}
       propertyPath: m_Name
