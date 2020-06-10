@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Boss_Att_Idle
+  m_Name: Boss_Anim_idle_Left
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -20,7 +20,7 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: 6077720835005046638, guid: 90aacc311116fc547b49afd751dd7119,
+      value: {fileID: -6397277044979621800, guid: 93de37a17367d694391da745f42ee406,
         type: 3}
     attribute: m_Sprite
     path: 
@@ -41,7 +41,7 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: 6077720835005046638, guid: 90aacc311116fc547b49afd751dd7119, type: 3}
+    - {fileID: -6397277044979621800, guid: 93de37a17367d694391da745f42ee406, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
