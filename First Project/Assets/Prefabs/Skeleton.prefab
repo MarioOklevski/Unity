@@ -170,6 +170,8 @@ MonoBehaviour:
   TimeBetweenMove: 2
   TimeToMove: 1
   WaitToReload: 2
+  Player: {fileID: 0}
+  Hero: {fileID: 0}
 --- !u!114 &6329602181385996703
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -183,7 +185,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DamageToDeal: 10
-  WaitToReload: 0
+  WaitToReload: 2
   DamageNumbers: {fileID: 5587805460742487813, guid: 5429555df50f346409caa0ced7694702,
     type: 3}
 --- !u!114 &138428061

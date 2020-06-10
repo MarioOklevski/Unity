@@ -15,9 +15,11 @@ public class DamagePlayer : MonoBehaviour
     public GameObject DamageNumbers;
     private PlayerStats Stats;
     private float HalfTimeToReload;
+    private Animator anim;
     // Start is called before the first frame update
     void Start()
     {
+        anim = GetComponent<Animator>();
         HalfTimeToReload = WaitToReload / 2;
         Stats = FindObjectOfType<PlayerStats>();
         Scene CurrentScene = SceneManager.GetActiveScene();
@@ -44,6 +46,7 @@ public class DamagePlayer : MonoBehaviour
     {
         if (other.gameObject.name == "Player")
         {
+            anim.SetBool("Attacking", true);
             CurrentDamage = DamageToDeal - Stats.CurrentDeffence;
             if(CurrentDamage < 0)
             {
@@ -55,10 +58,14 @@ public class DamagePlayer : MonoBehaviour
             if (other.gameObject.GetComponent<PlayerHealth>().PlayerCurrentHealth <= 0)
             {
                 Player = other.gameObject;
-                Player.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
+                Player.GetComponent<Rigidbody2D>().velocity = Vector3.zero;
                 Player.GetComponent<Animator>().SetBool("Dying", true);
                 reloading = true;
             }
         }
+    }
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        anim.SetBool("Attacking", false);
     }
 }
