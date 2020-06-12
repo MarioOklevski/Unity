@@ -92,7 +92,7 @@ public class Skeleton_Controls : MonoBehaviour
     {
         if(other.tag == "Myweapon")
         {
-            Vector2 diffrence = transform.position - other.transform.position;
+            Vector2 diffrence = transform.position - other.transform.position * 1.2f;
             transform.position = new Vector2(transform.position.x + diffrence.x, transform.position.y + diffrence.y);
         }
     }
