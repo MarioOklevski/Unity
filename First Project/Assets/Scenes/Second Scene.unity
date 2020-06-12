@@ -12969,7 +12969,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 138428061, guid: 3585a7b89fe768e47b8e76bb8fdf6af6, type: 3}
       propertyPath: EnemyMaxHealth
-      value: 92
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 105538873114222098, guid: 3585a7b89fe768e47b8e76bb8fdf6af6,
         type: 3}
@@ -14118,7 +14118,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 138428061, guid: 3585a7b89fe768e47b8e76bb8fdf6af6, type: 3}
       propertyPath: EnemyMaxHealth
-      value: 100
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 105538873114222098, guid: 3585a7b89fe768e47b8e76bb8fdf6af6,
         type: 3}
