@@ -40,7 +40,7 @@ public class PauseMenu : MonoBehaviour
     public void Pause()
     {
         PauseMenuUI.SetActive(true);
-       btn.SetActive(false);
+        btn.SetActive(false);
         Time.timeScale = 0f;
         Paused = true;
     }
