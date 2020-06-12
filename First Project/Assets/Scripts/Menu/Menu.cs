@@ -9,13 +9,19 @@ public class Menu : MonoBehaviour
     public GameObject m;
     public GameObject s;
     public GameObject b;
-
+    public GameObject slider;
+    public GameObject player;
+    private SpriteRenderer sp;
     void Start()
     {
+      
+        sp=player.GetComponent<SpriteRenderer>();
+        sp.color = new Color(1f,1f,1f,0f);
         Time.timeScale = 0f;
         m.SetActive(true);
         s.SetActive(false);
         b.SetActive(false);
+        slider.SetActive(false);
     }
 
     // Update is called once per frame
@@ -46,6 +52,9 @@ public class Menu : MonoBehaviour
         s.SetActive(false);
         Time.timeScale = 1f;
         b.SetActive(true);
+        slider.SetActive(true);
+         sp=player.GetComponent<SpriteRenderer>();
+        sp.color = new Color(1f,1f,1f,1f);
     } 
     public void Back()
     {
