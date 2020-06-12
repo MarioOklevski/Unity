@@ -203,3 +203,4 @@ MonoBehaviour:
   EnemyMaxHealth: 10
   EnemyCurrentHealth: 0
   ExpWhenKilled: 25
+  Give_Score: 10
