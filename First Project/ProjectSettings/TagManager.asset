@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Enemy
   - Myweapon
+  - TextEntry
   layers:
   - Default
   - TransparentFX
