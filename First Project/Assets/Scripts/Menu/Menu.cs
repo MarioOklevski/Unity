@@ -6,22 +6,29 @@ using UnityEngine.SceneManagement;
 
 public class Menu : MonoBehaviour
 {
-    public GameObject m;
-    public GameObject s;
-    public GameObject b;
+    public GameObject main;
+    public GameObject start;
+    public GameObject button;
+    public GameObject ball;
     public GameObject slider;
     public GameObject player;
+    public GameObject yesno;
     private SpriteRenderer sp;
+
+
+
     void Start()
     {
-      
         sp=player.GetComponent<SpriteRenderer>();
         sp.color = new Color(1f,1f,1f,0f);
         Time.timeScale = 0f;
-        m.SetActive(true);
-        s.SetActive(false);
-        b.SetActive(false);
+        main.SetActive(true);
+        ball.SetActive(true);
+        start.SetActive(false);
+        button.SetActive(false);
         slider.SetActive(false);
+        yesno.SetActive(false);
+
     }
 
     // Update is called once per frame
@@ -32,8 +39,8 @@ public class Menu : MonoBehaviour
     //  MAIN MENU   
     public void Play()
     {
-        m.SetActive(false);
-        s.SetActive(true);
+        main.SetActive(false);
+        start.SetActive(true);
     }
 
     public void Settings(){
@@ -42,23 +49,34 @@ public class Menu : MonoBehaviour
 
     public void Exit()
     {
+        main.SetActive(false);
+        yesno.SetActive(true);
+    }
+       public void yes(){
+        yesno.SetActive(false);
         Debug.Log("Quitting game");
         Application.Quit();
+    }
+    public void no(){
+        yesno.SetActive(false);
+        main.SetActive(true);
     }
 
     // START MENU
     public void PlayStart()
     {
-        s.SetActive(false);
+        start.SetActive(false);
         Time.timeScale = 1f;
-        b.SetActive(true);
+        ball.SetActive(false);
+        button.SetActive(true);
         slider.SetActive(true);
-         sp=player.GetComponent<SpriteRenderer>();
+        sp=player.GetComponent<SpriteRenderer>();
         sp.color = new Color(1f,1f,1f,1f);
     } 
+
     public void Back()
     {
-        s.SetActive(false);
-        m.SetActive(true);
+        start.SetActive(false);
+        main.SetActive(true);
     }
 }

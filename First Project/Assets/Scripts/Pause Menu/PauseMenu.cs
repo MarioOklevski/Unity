@@ -8,11 +8,14 @@ public class PauseMenu : MonoBehaviour
 {
     public static bool Paused = false;
     public GameObject PauseMenuUI;
-    GameObject btn;
+    public GameObject button;
+    public GameObject main;
+    public GameObject yesno;
+
+
     void Start()
     {
         PauseMenuUI.SetActive(false);
-        btn= GameObject.Find("Button");
     }
 
     // Update is called once per frame
@@ -35,23 +38,35 @@ public class PauseMenu : MonoBehaviour
         PauseMenuUI.SetActive(false);
         Time.timeScale = 1f;
         Paused = false;
-        btn.SetActive(true);
+        button.SetActive(true);
     }
     public void Pause()
     {
         PauseMenuUI.SetActive(true);
-        btn.SetActive(false);
+        button.SetActive(false);
         Time.timeScale = 0f;
         Paused = true;
     }
-    public void LoadMenu()
-    {
-        Time.timeScale = 1f;
-        SceneManager.LoadScene("MainMenu");
-    }
+    
     public void QuitGame()
     {
+        PauseMenuUI.SetActive(false);
+        yesno.SetActive(true);
+    }
+    
+    public void yes(){
         Debug.Log("Quitting game");
-        Application.Quit();
+        yesno.SetActive(false);
+        main.SetActive(true);
+        SaveScore();
+    }
+    public void no(){
+        yesno.SetActive(false);
+        PauseMenuUI.SetActive(true);
+    }
+
+
+    public void SaveScore(){
+        // TO DO
     }
 }
