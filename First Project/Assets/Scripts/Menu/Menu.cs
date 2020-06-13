@@ -13,6 +13,9 @@ public class Menu : MonoBehaviour
     public GameObject slider;
     public GameObject player;
     public GameObject yesno;
+    public GameObject info;
+    public GameObject topScore;
+    public GameObject scoreBoard;
     private SpriteRenderer sp;
 
 
@@ -28,7 +31,9 @@ public class Menu : MonoBehaviour
         button.SetActive(false);
         slider.SetActive(false);
         yesno.SetActive(false);
-
+        info.SetActive(false);
+        topScore.SetActive(false);
+        scoreBoard.SetActive(false);
     }
 
     // Update is called once per frame
@@ -43,9 +48,15 @@ public class Menu : MonoBehaviour
         start.SetActive(true);
     }
 
-    public void Settings(){
-        // to do
+    public void Info(){
+        main.SetActive(false);
+        info.SetActive(true);
     }
+    public void TopScore(){
+        main.SetActive(false);
+        topScore.SetActive(true);
+    }
+   
 
     public void Exit()
     {
@@ -70,12 +81,16 @@ public class Menu : MonoBehaviour
         ball.SetActive(false);
         button.SetActive(true);
         slider.SetActive(true);
+        scoreBoard.SetActive(true);
+
         sp=player.GetComponent<SpriteRenderer>();
         sp.color = new Color(1f,1f,1f,1f);
     } 
 
     public void Back()
     {
+        info.SetActive(false);
+        topScore.SetActive(false);
         start.SetActive(false);
         main.SetActive(true);
     }
