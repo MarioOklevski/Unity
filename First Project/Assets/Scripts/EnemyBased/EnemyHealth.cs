@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class EnemyHealth : MonoBehaviour
 {
@@ -8,6 +9,7 @@ public class EnemyHealth : MonoBehaviour
     public int EnemyCurrentHealth;
     private PlayerStats Stats;
     public int ExpWhenKilled;
+    public int Give_Score;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,6 +22,7 @@ public class EnemyHealth : MonoBehaviour
     {
         if(EnemyCurrentHealth <= 0f)
         {
+            ScoreManager.ScoreNumber += Give_Score;
             Destroy(gameObject);
             Stats.AddExperience(ExpWhenKilled);
         }
