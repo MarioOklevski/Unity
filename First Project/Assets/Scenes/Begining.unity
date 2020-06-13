@@ -2280,7 +2280,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15f5d65d9232e4f68bc4818fd762d64e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ballName: SimceBall
+  ballName: LogoBall
   moveSpeed: 1
   offset: 5
   canvasName: Canvas
