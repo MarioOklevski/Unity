@@ -22,7 +22,7 @@ public class EnemyHealth : MonoBehaviour
     {
         if(EnemyCurrentHealth <= 0f)
         {
-            Canvas.FindObjectOfType<Text>().GetComponent<ScoreManager>().AddScore(Give_Score);
+            ScoreManager.ScoreNumber += Give_Score;
             Destroy(gameObject);
             Stats.AddExperience(ExpWhenKilled);
         }

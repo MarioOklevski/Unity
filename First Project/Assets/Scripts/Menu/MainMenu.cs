@@ -7,9 +7,13 @@ using UnityEngine.SceneManagement;
 public class MainMenu : MonoBehaviour
 {
     GameObject[] pauseObjects;
+	Scene CurrentScene;
+	string NameOfScene;
 
 	// Use this for initialization
 	void Start () {
+		CurrentScene = SceneManager.GetActiveScene();
+		NameOfScene = CurrentScene.name;
 		Time.timeScale = 1;
 		pauseObjects = GameObject.FindGameObjectsWithTag("ShowOnPause");
 		hidePaused();
@@ -36,7 +40,7 @@ public class MainMenu : MonoBehaviour
 
 	//Reloads the Level
 	public void Reload(){
-		SceneManager.LoadScene(Application.loadedLevel);
+		SceneManager.LoadScene(NameOfScene);
 	}
 
 	//controls the pausing of the scene
