@@ -58,7 +58,6 @@ public class PauseMenu : MonoBehaviour
         Debug.Log("Quitting game");
         yesno.SetActive(false);
         main.SetActive(true);
-        SaveScore();
     }
     public void no(){
         yesno.SetActive(false);
@@ -66,7 +65,4 @@ public class PauseMenu : MonoBehaviour
     }
 
 
-    public void SaveScore(){
-        // TO DO
-    }
 }

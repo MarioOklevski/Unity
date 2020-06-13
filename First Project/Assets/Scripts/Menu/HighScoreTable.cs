@@ -86,6 +86,13 @@ public class HighScoreTable : MonoBehaviour
     private void sort(){
         string jsonString = PlayerPrefs.GetString("highScoreTable");
         HighScores highScores = JsonUtility.FromJson<HighScores>(jsonString);
+        if(highScores.highScoreEntryList==null){
+            highScores.highScoreEntryList = new List<HighScoreEntry>();
+            string json=JsonUtility.ToJson(highScores);
+            PlayerPrefs.SetString("highScoreTable",json); //override
+            PlayerPrefs.Save();
+            return;
+        }
 
         //sort 
         for (int i=0;i<highScores.highScoreEntryList.Count;i++){
@@ -107,6 +114,17 @@ public class HighScoreTable : MonoBehaviour
             PlayerPrefs.SetString("highScoreTable",json); //override
             PlayerPrefs.Save();
         }
+    }
+
+
+
+
+    public void SaveScore(){
+        // TO DO
+        // get name
+        // get score
+        //  AddHighScoreEntry(int score,string name){
+
     }
     
 }
