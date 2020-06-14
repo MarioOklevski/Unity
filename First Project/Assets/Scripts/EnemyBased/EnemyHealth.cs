@@ -1,4 +1,4 @@
-﻿using System.Collections;
+﻿ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -22,7 +22,12 @@ public class EnemyHealth : MonoBehaviour
     {
         if(EnemyCurrentHealth <= 0f)
         {
+            
             ScoreManager.ScoreNumber += Give_Score;
+            if(gameObject.tag == "Boss")
+            {
+                HighScoreTable.SaveScore();
+            }
             Destroy(gameObject);
             Stats.AddExperience(ExpWhenKilled);
         }

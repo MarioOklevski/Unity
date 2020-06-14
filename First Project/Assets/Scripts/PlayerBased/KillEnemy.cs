@@ -22,8 +22,12 @@ public class KillEnemy : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.gameObject.tag == "Enemy")
+        if(collision.gameObject.tag == "Enemy" || collision.gameObject.tag == "Boss")
         {
+            if(collision.gameObject.tag == "Boss")
+            {
+
+            }
             CurrentDamage = Damage + Stats.CurrentAttack;
             collision.gameObject.GetComponent<EnemyHealth>().DamageEnemy(CurrentDamage);
             Instantiate(DamageEffect, transform.position, transform.rotation);

@@ -3,12 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using JetBrains.Annotations;
 
 public class HighScoreTable : MonoBehaviour
 {
-   public Transform entryContainer;
-   public Transform entryTemplate;
-   private List<Transform> highScoreEntryTransformList;
+    public Transform entryContainer;
+    public Transform entryTemplate;
+    private List<Transform> highScoreEntryTransformList;
+    private static string PlayerName;
+    private static int Score;
 
 // PRIVATE CLASSES X2   
     [System.Serializable]
@@ -68,7 +71,7 @@ public class HighScoreTable : MonoBehaviour
         transformList.Add(entryTransform);
     }
 
-    public void AddHighScoreEntry(int score,string name){
+    public static void AddHighScoreEntry(int score,string name){
         // create
         HighScoreEntry highScoreEntry = new HighScoreEntry{score=score,name=name};
         //load-get
@@ -119,12 +122,14 @@ public class HighScoreTable : MonoBehaviour
 
 
 
-    public void SaveScore(){
+    public static void SaveScore(){
         // TO DO
         // get name
         // get score
         //  AddHighScoreEntry(int score,string name){
-
+        PlayerName = GetPlayerName.GetName();
+        Score = ScoreManager.ScoreNumber;
+        AddHighScoreEntry(Score, PlayerName);
     }
     
 }
