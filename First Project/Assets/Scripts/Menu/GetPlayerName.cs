@@ -11,6 +11,7 @@ public class GetPlayerName : MonoBehaviour
     public void Awake()
     {
         InputField_Name = transform.Find("InputField").GetComponent<TMP_InputField>();
+        SetName();
     }
     public void SetName()
     {

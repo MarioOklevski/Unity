@@ -26,7 +26,7 @@ public class KillEnemy : MonoBehaviour
         {
             if(collision.gameObject.tag == "Boss")
             {
-
+                HighScoreTable.SaveScore();
             }
             CurrentDamage = Damage + Stats.CurrentAttack;
             collision.gameObject.GetComponent<EnemyHealth>().DamageEnemy(CurrentDamage);
