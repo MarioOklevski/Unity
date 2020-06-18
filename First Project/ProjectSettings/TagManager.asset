@@ -9,6 +9,7 @@ TagManager:
   - TextEntry
   - Boss
   - InputField
+  - Btn
   layers:
   - Default
   - TransparentFX

@@ -10,6 +10,8 @@ public class EnemyHealth : MonoBehaviour
     private PlayerStats Stats;
     public int ExpWhenKilled;
     public int Give_Score;
+
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -26,7 +28,14 @@ public class EnemyHealth : MonoBehaviour
             ScoreManager.ScoreNumber += Give_Score;
             if(gameObject.tag == "Boss")
             {
+                Debug.Log("here");
                 HighScoreTable.SaveScore();
+                // Menu.KillBoss();
+                GameObject button = GameObject.FindGameObjectsWithTag("Btn");button.SetActive(false);
+                // slider.SetActive(false);
+                // score.SetActive(false);
+                // topScore.SetActive(true);
+
             }
             Destroy(gameObject);
             Stats.AddExperience(ExpWhenKilled);

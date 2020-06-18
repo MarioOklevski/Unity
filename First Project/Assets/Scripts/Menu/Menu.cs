@@ -20,7 +20,22 @@ public class Menu : MonoBehaviour
 
 
 
-    void Start()
+    public void Start()
+    {
+        sp=player.GetComponent<SpriteRenderer>();
+        sp.color = new Color(1f,1f,1f,0f);
+        Time.timeScale = 0f;
+        main.SetActive(true);
+        ball.SetActive(true);
+        start.SetActive(false);
+        button.SetActive(false);
+        slider.SetActive(false);
+        yesno.SetActive(false);
+        info.SetActive(false);
+        topScore.SetActive(false);
+        scoreBoard.SetActive(false);
+    }
+     public void KillBoss()
     {
         sp=player.GetComponent<SpriteRenderer>();
         sp.color = new Color(1f,1f,1f,0f);

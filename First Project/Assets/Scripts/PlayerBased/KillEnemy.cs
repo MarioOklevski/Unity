@@ -9,6 +9,9 @@ public class KillEnemy : MonoBehaviour
     public GameObject DamageEffect;
     public GameObject DamageNumbers;
     private PlayerStats Stats;
+
+
+
     // Start is called before the first frame update
     void Start()
     {

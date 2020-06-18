@@ -17428,7 +17428,7 @@ GameObject:
   - component: {fileID: 1053504621}
   m_Layer: 0
   m_Name: Enemy
-  m_TagString: Enemy
+  m_TagString: Boss
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17595,7 +17595,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3bb370840656104097aadb99ab6a1b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  EnemyMaxHealth: 100
+  EnemyMaxHealth: 1
   EnemyCurrentHealth: 0
   ExpWhenKilled: 100
   Give_Score: 0
