@@ -95,5 +95,10 @@ public class Skeleton_Controls : MonoBehaviour
             Vector2 diffrence = transform.position - other.transform.position * 1.2f;
             transform.position = new Vector2(transform.position.x + diffrence.x, transform.position.y + diffrence.y);
         }
+        if(other.tag == "Player")
+        {
+            Vector2 diffrence2 = transform.position - other.transform.position;
+            transform.position = new Vector2(transform.position.x + diffrence2.x, transform.position.y + diffrence2.y);
+        }
     }
 }

@@ -11,9 +11,11 @@ public class PlayerHealth : MonoBehaviour
     public float EffectLength;
     private float EffectCounter;
     private SpriteRenderer PlayerSprite;
+    private Controls Speed;
     // Start is called before the first frame update
     void Start()
     {
+        Speed = GetComponent<Controls>();
         PlayerSprite = GetComponent<SpriteRenderer>();
         PlayerCurrentHealth = PlayerMaxHealth;
     }
@@ -52,5 +54,6 @@ public class PlayerHealth : MonoBehaviour
     public void ResetHealth()
     {
         PlayerCurrentHealth = PlayerMaxHealth;
+        Speed.moveSpeed = 4;
     }
 }

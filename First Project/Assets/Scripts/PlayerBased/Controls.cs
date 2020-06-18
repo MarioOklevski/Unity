@@ -16,9 +16,11 @@ public class Controls : MonoBehaviour
     private float AttackTimeCounter;
     private static bool PlayerExists;
     public string StartPoint;
+    private PlayerHealth HealthHP;
     // Start is called before the first frame update
     void Start()
     {
+        HealthHP = GetComponent<PlayerHealth>();
         anim = GetComponent<Animator>();
         myRigidBody = GetComponent<Rigidbody2D>();
         if (!PlayerExists)
@@ -86,6 +88,10 @@ public class Controls : MonoBehaviour
         {
             Attacking = false;
             anim.SetBool("Attacking", false);
+        }
+        if (HealthHP.PlayerCurrentHealth == 0)
+        {
+           moveSpeed = 0f;
         }
         anim.SetFloat("MoveX", Input.GetAxisRaw("Horizontal"));
         anim.SetFloat("MoveY", Input.GetAxisRaw("Vertical"));
