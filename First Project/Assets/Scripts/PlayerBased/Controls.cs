@@ -89,7 +89,7 @@ public class Controls : MonoBehaviour
             Attacking = false;
             anim.SetBool("Attacking", false);
         }
-        if (HealthHP.PlayerCurrentHealth == 0)
+        if (HealthHP.PlayerCurrentHealth <= 0)
         {
            moveSpeed = 0f;
         }

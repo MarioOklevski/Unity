@@ -39,18 +39,18 @@ public class Skeleton_Controls : MonoBehaviour
     void Update()
     {
         Vector2 heroDirection = Hero.transform.position - transform.position;
-        
-        bool range = (Mathf.Abs(heroDirection.x))+(Mathf.Abs(heroDirection.y)) < 10;
+
+        bool range = (Mathf.Abs(heroDirection.x)) + (Mathf.Abs(heroDirection.y)) < 10;
         /////////////////////// RANGE ////////////////////
-        if(range){
+        if (range) {
             myRigidBody.velocity = heroDirection;
 
-            direction = new Vector3( heroDirection.x * moveSpeed+1, heroDirection.y * moveSpeed+1, 0f);
+            direction = new Vector3(heroDirection.x * moveSpeed + 1, heroDirection.y * moveSpeed + 1, 0f);
             LastMove = new Vector2(direction.x, direction.y);
         }
 
         /////////////////////MOVEMENT///////////////// Not in range
-       if(!range)
+        if (!range)
        { 
             if (Movement)
             {
@@ -88,17 +88,13 @@ public class Skeleton_Controls : MonoBehaviour
         anim.SetFloat("LastMoveX", LastMove.x);
         anim.SetFloat("LastMoveY", LastMove.y);
     }
+
     private void OnTriggerEnter2D(Collider2D other)
     {
         if(other.tag == "Myweapon")
         {
             Vector2 diffrence = transform.position - other.transform.position * 1.2f;
             transform.position = new Vector2(transform.position.x + diffrence.x, transform.position.y + diffrence.y);
-        }
-        if(other.tag == "Player")
-        {
-            Vector2 diffrence2 = transform.position - other.transform.position;
-            transform.position = new Vector2(transform.position.x + diffrence2.x, transform.position.y + diffrence2.y);
         }
     }
 }

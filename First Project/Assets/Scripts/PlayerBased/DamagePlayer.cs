@@ -16,6 +16,7 @@ public class DamagePlayer : MonoBehaviour
     private PlayerStats Stats;
     private float HalfTimeToReload;
     private Animator anim;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -52,7 +53,7 @@ public class DamagePlayer : MonoBehaviour
             {
                 CurrentDamage = 1;
             }
-            other.gameObject.GetComponent<PlayerHealth>().DamagePlayer(CurrentDamage);
+            other.gameObject.GetComponent<PlayerHealth>().DamagePlayer(CurrentDamage,gameObject);
             var clone = (GameObject)Instantiate(DamageNumbers, other.transform.position, Quaternion.Euler(Vector3.zero));
             clone.GetComponent<DamageNumbers>().DamageNumber = CurrentDamage;
             if (other.gameObject.GetComponent<PlayerHealth>().PlayerCurrentHealth <= 0)

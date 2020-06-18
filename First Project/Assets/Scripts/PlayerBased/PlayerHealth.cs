@@ -12,6 +12,7 @@ public class PlayerHealth : MonoBehaviour
     private float EffectCounter;
     private SpriteRenderer PlayerSprite;
     private Controls Speed;
+  
     // Start is called before the first frame update
     void Start()
     {
@@ -45,11 +46,13 @@ public class PlayerHealth : MonoBehaviour
             EffectCounter -= Time.deltaTime;
         }
     }
-    public void DamagePlayer(int TakenDamage)
+    public void DamagePlayer(int TakenDamage,GameObject o)
     {
         PlayerCurrentHealth -= TakenDamage;
         Damaged = true;
         EffectCounter = EffectLength;
+        Vector2 diffrence2 = (transform.position - o.transform.position) * 0.6f;
+        transform.position = new Vector2(transform.position.x + diffrence2.x, transform.position.y + diffrence2.y);
     }
     public void ResetHealth()
     {
