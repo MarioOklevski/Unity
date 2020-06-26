@@ -1,8 +1,10 @@
 ﻿ using System.Collections;
 using System.Collections.Generic;
 using System.Security.Cryptography;
+using UnityEditorInternal;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.UIElements;
 
 public class EnemyHealth : MonoBehaviour
 {
@@ -11,6 +13,9 @@ public class EnemyHealth : MonoBehaviour
     private PlayerStats Stats;
     public int ExpWhenKilled;
     public int Give_Score;
+    private GameObject Button;
+    private GameObject Slider;
+    private GameObject Score;
     // Start is called before the first frame update
     void Start()
     {
@@ -27,18 +32,26 @@ public class EnemyHealth : MonoBehaviour
             ScoreManager.ScoreNumber += Give_Score;
             if(gameObject.tag == "Boss")
             {
-                Debug.Log("here");
-                GetPlayerName.ShowHighScore();
-                HighScoreTable.SaveScore();
-                // Menu.KillBoss();
-                //GameObject button = GameObject.FindGameObjectsWithTag("Btn");button.SetActive(false);
-                // slider.SetActive(false);
-                // score.SetActive(false);
-                // topScore.SetActive(true);
+                Time.timeScale = 0f;
+                CallTopScoreMenu();
             }
             Destroy(gameObject);
             Stats.AddExperience(ExpWhenKilled);
         }
+    }
+    public void CallTopScoreMenu()
+    {
+        Debug.Log("here");
+        GetPlayerName.ShowHighScore();
+        //HighScoreTable.SaveScore();
+        // Menu.KillBoss();
+        Button = GameObject.Find("Button Pause");
+        Button.SetActive(false);
+        Slider = GameObject.Find("Slider");
+        Slider.SetActive(false);
+        Score = GameObject.Find("TopScore Menu");
+        Score.SetActive(true);
+        //topScore.SetActive(true);
     }
     public void DamageEnemy(int TakenDamage)
     {

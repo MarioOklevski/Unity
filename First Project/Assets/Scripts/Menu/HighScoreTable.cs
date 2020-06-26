@@ -124,8 +124,9 @@ public class HighScoreTable : MonoBehaviour
             PlayerPrefs.Save();
         }
     }
-    public static void SaveScore(){
+    public void SaveScore(){
         // TO DO
+        sort();
         // get name
         // get score
         //  AddHighScoreEntry(int score,string name){
