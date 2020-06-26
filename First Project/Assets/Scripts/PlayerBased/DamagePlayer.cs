@@ -58,6 +58,7 @@ public class DamagePlayer : MonoBehaviour
             clone.GetComponent<DamageNumbers>().DamageNumber = CurrentDamage;
             if (other.gameObject.GetComponent<PlayerHealth>().PlayerCurrentHealth <= 0)
             {
+                gameObject.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezeAll;
                 ScoreManager.ScoreNumber = 0;
                 Player = other.gameObject;
                 Player.GetComponent<Rigidbody2D>().velocity = Vector3.zero;

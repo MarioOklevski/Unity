@@ -12,7 +12,7 @@ public class PlayerHealth : MonoBehaviour
     private float EffectCounter;
     private SpriteRenderer PlayerSprite;
     private Controls Speed;
-  
+
     // Start is called before the first frame update
     void Start()
     {

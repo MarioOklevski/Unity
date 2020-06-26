@@ -13,7 +13,6 @@ public class HighScoreTable : MonoBehaviour
     private static string PlayerName;
     private static int Score;
     private bool t=false;
-
 // PRIVATE CLASSES X2   
     [System.Serializable]
     private class HighScoreEntry{
@@ -27,7 +26,7 @@ public class HighScoreTable : MonoBehaviour
         }
     }
 
-    public void Awake(){
+    private void Awake(){
         highScoreEntryTransformList = new List<Transform>();
 
         entryTemplate.gameObject.SetActive(false);
@@ -77,9 +76,9 @@ public class HighScoreTable : MonoBehaviour
         transformList.Add(entryTransform);
     }
 
-    public static void AddHighScoreEntry(int score,string name){
+    public static void AddHighScoreEntry(int Score,string Name){
         // create
-        HighScoreEntry highScoreEntry = new HighScoreEntry{score=score,name=name};
+        HighScoreEntry highScoreEntry = new HighScoreEntry{score=Score,name=Name};
         //load-get
         string jsonString = PlayerPrefs.GetString("highScoreTable");
         HighScores highScores = JsonUtility.FromJson<HighScores>(jsonString);
@@ -125,10 +124,6 @@ public class HighScoreTable : MonoBehaviour
             PlayerPrefs.Save();
         }
     }
-
-
-
-
     public static void SaveScore(){
         // TO DO
         // get name

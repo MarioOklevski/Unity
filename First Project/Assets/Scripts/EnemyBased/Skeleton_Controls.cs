@@ -18,7 +18,6 @@ public class Skeleton_Controls : MonoBehaviour
     private Vector3 direction;
     public float WaitToReload;
     private bool reloading;
-
     //range
     public Transform Player;
     public GameObject Hero;
@@ -39,7 +38,6 @@ public class Skeleton_Controls : MonoBehaviour
     void Update()
     {
         Vector2 heroDirection = Hero.transform.position - transform.position;
-
         bool range = (Mathf.Abs(heroDirection.x)) + (Mathf.Abs(heroDirection.y)) < 10;
         /////////////////////// RANGE ////////////////////
         if (range) {
@@ -51,7 +49,7 @@ public class Skeleton_Controls : MonoBehaviour
 
         /////////////////////MOVEMENT///////////////// Not in range
         if (!range)
-       { 
+        { 
             if (Movement)
             {
                 TimeToMoveCounter -= Time.deltaTime;
@@ -76,6 +74,7 @@ public class Skeleton_Controls : MonoBehaviour
                 }
             }
         }
+        
 
 
         anim.SetFloat("MoveX", direction.x);

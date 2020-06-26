@@ -2,15 +2,18 @@
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class GetPlayerName : MonoBehaviour
 {
     private TMP_InputField InputField_Name;
+    private Transform Field;
+    public GameObject ScoreMenu;
     private static string Name;
-    public void Awake()
+    void Awake()
     {
-        InputField_Name = transform.Find("InputField").GetComponent<TMP_InputField>();
+        ScoreMenu = GameObject.Find("TopScore Menu");
+        Field = transform.Find("InputField");
+        InputField_Name = Field.GetComponent<TMP_InputField>();
         SetName();
     }
     public void SetName()
@@ -20,5 +23,10 @@ public class GetPlayerName : MonoBehaviour
     public static string GetName()
     {
         return Name;
+    }
+    public static void ShowHighScore()
+    {
+        Time.timeScale = 0f;
+        ScoreMenu.SetActive(true);
     }
 }
