@@ -13,7 +13,7 @@ public class GetPlayerName : MonoBehaviour
     private static string Name;
     private InputField FieldName;*/
 
-
+    public GameObject menu;
     static string Name;
     public TMP_InputField Field;
     void Awake()
@@ -31,6 +31,6 @@ public class GetPlayerName : MonoBehaviour
     public static void ShowHighScore()
     {
         Time.timeScale = 0f;
-        //ScoreMenu.SetActive(true);
+        //gameObject.GetComponent<GetPlayerName>().menu.SetActive(true);
     }
 }

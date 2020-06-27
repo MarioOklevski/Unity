@@ -16,6 +16,7 @@ public class EnemyHealth : MonoBehaviour
     private GameObject Button;
     private GameObject Slider;
     private GameObject Score;
+    public GameObject menu;
     // Start is called before the first frame update
     void Start()
     {
@@ -49,8 +50,8 @@ public class EnemyHealth : MonoBehaviour
         Button.SetActive(false);
         Slider = GameObject.Find("Slider");
         Slider.SetActive(false);
-        Score = GameObject.Find("TopScore Menu");
-        Score.SetActive(true);
+        //Score = GameObject.Find("TopScore Menu");
+        //Score.SetActive(true);
         //topScore.SetActive(true);
     }
     public void DamageEnemy(int TakenDamage)
