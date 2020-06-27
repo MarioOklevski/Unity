@@ -8,7 +8,10 @@ public class OnScreenName : MonoBehaviour
 {
     public TMP_Text Name;
     // Start is called before the first frame update
-    void Start()
+    private void Start()
+    {
+    }
+    void Update()
     {
         Name.text = GetPlayerName.GetName();
     }

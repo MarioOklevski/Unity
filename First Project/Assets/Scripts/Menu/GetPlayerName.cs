@@ -7,22 +7,22 @@ using UnityEngine.UI;
 
 public class GetPlayerName : MonoBehaviour
 {
-    //private TMP_InputField InputField_Name;
-    //private Transform Field;
-    public GameObject ScoreMenu;
+    /*private TMP_InputField InputField_Name;
+    private Transform Field;
+    public static Text FieldText;
     private static string Name;
-    public InputField FieldName;
+    private InputField FieldName;*/
+
+
+    static string Name;
+    public TMP_InputField Field;
     void Awake()
     {
-            ScoreMenu = GameObject.Find("TopScore Menu");
-            //Field = transform.Find("InputField");
-            //InputField_Name = Field.GetComponent<TMP_InputField>();
-            SetName();
-
+        Field.characterLimit = 8;
     }
     public void SetName()
     {
-        Name = FieldName.text;
+        Name = Field.text;
     }
     public static string GetName()
     {
