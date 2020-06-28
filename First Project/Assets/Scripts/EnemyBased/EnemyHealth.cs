@@ -43,7 +43,7 @@ public class EnemyHealth : MonoBehaviour
     public void CallTopScoreMenu()
     {
         Debug.Log("here");
-        GetPlayerName.ShowHighScore();
+        GetPlayerName.BossKilled();
         //HighScoreTable.SaveScore();
         // Menu.KillBoss();
         Button = GameObject.Find("Button Pause");
