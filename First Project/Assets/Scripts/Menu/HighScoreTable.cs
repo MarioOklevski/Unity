@@ -13,6 +13,7 @@ public class HighScoreTable : MonoBehaviour
     private static string PlayerName;
     private static int Score;
     private bool t=false;
+    private static bool add=false;
 // PRIVATE CLASSES X2   
     [System.Serializable]
     private class HighScoreEntry{
@@ -31,16 +32,18 @@ public class HighScoreTable : MonoBehaviour
 
         entryTemplate.gameObject.SetActive(false);
 
-        // AddHighScoreEntry(1000,"NEW");//manualy enter
+        // AddHighScoreEntry(1,"NEW2");//manualy enter
 
         sort();// FIRST
-       HighScores highScores = new HighScores();
-        if(t){
-            string jsonString = PlayerPrefs.GetString("highScoreTable");
-             highScores= JsonUtility.FromJson<HighScores>(jsonString);
-        }else{
-            t=false;
-        }
+
+        string jsonString = PlayerPrefs.GetString("highScoreTable");
+        HighScores highScores= JsonUtility.FromJson<HighScores>(jsonString);
+       //reload table
+    //    highScores.highScoreEntryList = new List<HighScoreEntry>();
+    //     string json=JsonUtility.ToJson(highScores);
+    //     PlayerPrefs.SetString("highScoreTable",json);
+    //     PlayerPrefs.Save();
+       
         
 
         foreach(HighScoreEntry hse in  highScores.highScoreEntryList){
@@ -92,11 +95,12 @@ public class HighScoreTable : MonoBehaviour
     }
 
     private void sort(){
-        string jsonString = PlayerPrefs.GetString("highScoreTable");
+       string jsonString = PlayerPrefs.GetString("highScoreTable");
         HighScores highScores = JsonUtility.FromJson<HighScores>(jsonString);
         if(highScores==null){
             // Debug.Log("here");
-            highScores.highScoreEntryList = new List<HighScoreEntry>();
+            highScores = new HighScores();
+            //highScores.highScoreEntryList = new List<HighScoreEntry>();
             string json=JsonUtility.ToJson(highScores);
             PlayerPrefs.SetString("highScoreTable",json); //override
             PlayerPrefs.Save();
@@ -126,6 +130,7 @@ public class HighScoreTable : MonoBehaviour
     }
     public void SaveScore(){
         // TO DO
+        add=false;
         sort();
         // get name
         // get score
@@ -133,6 +138,14 @@ public class HighScoreTable : MonoBehaviour
         PlayerName = GetPlayerName.GetName();
         Score = ScoreManager.ScoreNumber;
         AddHighScoreEntry(Score, PlayerName);
+    }
+    public static void Add(){
+        add=true;
+    }
+    void Update(){
+        if(add){
+            SaveScore();
+        }
     }
     
 }
