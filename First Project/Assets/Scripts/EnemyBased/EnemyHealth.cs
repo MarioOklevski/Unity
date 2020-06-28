@@ -42,7 +42,9 @@ public class EnemyHealth : MonoBehaviour
     }
     public void CallTopScoreMenu()
     {
-        Debug.Log("here");
+        //Debug.Log("here");
+        
+        HighScoreTable.Add();
         GetPlayerName.BossKilled();
         //HighScoreTable.SaveScore();
         // Menu.KillBoss();
@@ -50,6 +52,7 @@ public class EnemyHealth : MonoBehaviour
         Button.SetActive(false);
         Slider = GameObject.Find("Slider");
         Slider.SetActive(false);
+        
         //Score = GameObject.Find("TopScore Menu");
         //Score.SetActive(true);
         //topScore.SetActive(true);
