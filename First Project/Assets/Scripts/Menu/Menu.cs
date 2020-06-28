@@ -35,6 +35,8 @@ public class Menu : MonoBehaviour
         info.SetActive(false);
         topScore.SetActive(false);
         scoreBoard.SetActive(false);
+
+
     }
      public void KillBoss()
     {
@@ -98,6 +100,7 @@ public class Menu : MonoBehaviour
         button.SetActive(true);
         slider.SetActive(true);
         scoreBoard.SetActive(true);
+        topScore.SetActive(false);
 
         sp=player.GetComponent<SpriteRenderer>();
         sp.color = new Color(1f,1f,1f,1f);
@@ -105,9 +108,18 @@ public class Menu : MonoBehaviour
 
     public void Back()
     {
-        info.SetActive(false);
-        topScore.SetActive(false);
-        start.SetActive(false);
-        main.SetActive(true);
+        if(SceneManager.GetActiveScene().name =="BOSS_LEVEL" || SceneManager.GetActiveScene().name=="Winter" ){
+            SceneManager.LoadScene("Begining");
+            PlayStart();
+            PlayerStats.Reset();
+            ScoreManager.SetScore();
+
+        }else{
+            info.SetActive(false);
+            topScore.SetActive(false);
+            start.SetActive(false);
+            main.SetActive(true);
+        }
     }
+
 }

@@ -15,14 +15,22 @@ public class PlayerStats : MonoBehaviour
     public int CurrentAttack;
     public int CurrentDeffence;
 
+    public static bool restart=true;
+
     private PlayerHealth Health;
     // Start is called before the first frame update
     void Start()
     {
-        CurrentHP = HPLevels[1];
-        CurrentAttack = AttackLevels[1];
-        CurrentDeffence = DeffenceLevels[1];
-        Health = FindObjectOfType<PlayerHealth>();
+        if(restart){
+            CurrentHP = HPLevels[1];
+            CurrentAttack = AttackLevels[1];
+            CurrentDeffence = DeffenceLevels[1];
+            Health = FindObjectOfType<PlayerHealth>();
+        }
+        restart=false;
+    }
+    public static void Reset(){
+        restart=true;
     }
 
     // Update is called once per frame

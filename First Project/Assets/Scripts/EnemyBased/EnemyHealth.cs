@@ -22,6 +22,13 @@ public class EnemyHealth : MonoBehaviour
     {
         Stats = FindObjectOfType<PlayerStats>();
         EnemyCurrentHealth = EnemyMaxHealth;
+         gameObject.SetActive(true);
+    }
+    public static void Reset(){
+        // if(gameObject.tag=="Boss"){
+        //     Start();
+        //     gameObject.SetActive(true);
+        // }
     }
 
     // Update is called once per frame
@@ -36,7 +43,8 @@ public class EnemyHealth : MonoBehaviour
                 Time.timeScale = 0f;
                 CallTopScoreMenu();
             }
-            Destroy(gameObject);
+            //Destroy(gameObject);
+            gameObject.SetActive(false);
             Stats.AddExperience(ExpWhenKilled);
         }
     }
@@ -46,6 +54,7 @@ public class EnemyHealth : MonoBehaviour
         
         HighScoreTable.Add();
         GetPlayerName.BossKilled();
+
         //HighScoreTable.SaveScore();
         // Menu.KillBoss();
         Button = GameObject.Find("Button Pause");

@@ -39,7 +39,7 @@ public class HighScoreTable : MonoBehaviour
         string jsonString = PlayerPrefs.GetString("highScoreTable");
         HighScores highScores= JsonUtility.FromJson<HighScores>(jsonString);
        //reload table
-    //    highScores.highScoreEntryList = new List<HighScoreEntry>();
+    //     highScores.highScoreEntryList = new List<HighScoreEntry>();
     //     string json=JsonUtility.ToJson(highScores);
     //     PlayerPrefs.SetString("highScoreTable",json);
     //     PlayerPrefs.Save();
@@ -138,6 +138,8 @@ public class HighScoreTable : MonoBehaviour
         PlayerName = GetPlayerName.GetName();
         Score = ScoreManager.ScoreNumber;
         AddHighScoreEntry(Score, PlayerName);
+        // GetPlayerName.BossKilled();
+        sort();
     }
     public static void Add(){
         add=true;
@@ -146,6 +148,7 @@ public class HighScoreTable : MonoBehaviour
         if(add){
             SaveScore();
         }
+        Awake();
     }
     
 }

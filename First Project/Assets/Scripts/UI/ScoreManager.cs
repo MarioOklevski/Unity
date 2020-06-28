@@ -22,4 +22,7 @@ public class ScoreManager : MonoBehaviour
     {
         ScoreNumber += ScoreToAdd;
     }
+    public static void SetScore(){
+        ScoreNumber=0;
+    }
 }
