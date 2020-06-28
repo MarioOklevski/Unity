@@ -42,7 +42,7 @@ public class GetPlayerName : MonoBehaviour
     public void ShowHighScore()
     {
         Time.timeScale = 0f;
-        Debug.Log("menu"+menu);
+        //Debug.Log("menu"+menu);
         menu.SetActive(true);
         killed=false;
         //gameObject.GetComponent<GetPlayerName>().menu.SetActive(true);
