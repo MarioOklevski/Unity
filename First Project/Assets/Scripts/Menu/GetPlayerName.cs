@@ -25,7 +25,11 @@ public class GetPlayerName : MonoBehaviour
     }
     public void SetName()
     {
-        Name = Field.text;
+        if(Field.text==null){
+            Name="";
+        }else{
+            Name = Field.text;
+        }
     }
     public static string GetName()
     {
@@ -42,7 +46,6 @@ public class GetPlayerName : MonoBehaviour
     public void ShowHighScore()
     {
         Time.timeScale = 0f;
-        //Debug.Log("menu"+menu);
         menu.SetActive(true);
         killed=false;
         //gameObject.GetComponent<GetPlayerName>().menu.SetActive(true);

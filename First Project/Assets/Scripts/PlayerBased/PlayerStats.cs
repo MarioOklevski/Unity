@@ -11,6 +11,8 @@ public class PlayerStats : MonoBehaviour
     public int[] AttackLevels;
     public int[] DeffenceLevels;
 
+    private int hp,al,dl;
+
     public int CurrentHP;
     public int CurrentAttack;
     public int CurrentDeffence;
@@ -21,12 +23,13 @@ public class PlayerStats : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        if(restart){
-            CurrentHP = HPLevels[1];
-            CurrentAttack = AttackLevels[1];
-            CurrentDeffence = DeffenceLevels[1];
-            Health = FindObjectOfType<PlayerHealth>();
-        }
+        CurrentHP = HPLevels[1];
+        CurrentAttack = AttackLevels[1];
+        CurrentDeffence = DeffenceLevels[1];
+        hp=CurrentHP;
+        al=CurrentAttack;
+        dl=CurrentDeffence;
+        Health = FindObjectOfType<PlayerHealth>();
         restart=false;
     }
     public static void Reset(){
@@ -39,6 +42,14 @@ public class PlayerStats : MonoBehaviour
         if(CurrentPlayerExp >= LevelUpExp[CurrentPlayerLevel])
         {
             LevelUp();
+        }
+        if(restart){
+            HPLevels[1]=hp;
+            AttackLevels[1]=al;
+            DeffenceLevels[1]=dl;
+            Health = FindObjectOfType<PlayerHealth>();
+            restart=false;
+            Debug.Log("heereeee");
         }
     }
     public void AddExperience(int ExpToAdd)

@@ -57,7 +57,7 @@ public class EnemyHealth : MonoBehaviour
 
         //HighScoreTable.SaveScore();
         // Menu.KillBoss();
-        Button = GameObject.Find("Button Pause");
+        Button = GameObject.Find("Button");
         Button.SetActive(false);
         Slider = GameObject.Find("Slider");
         Slider.SetActive(false);

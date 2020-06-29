@@ -104,15 +104,19 @@ public class Menu : MonoBehaviour
 
         sp=player.GetComponent<SpriteRenderer>();
         sp.color = new Color(1f,1f,1f,1f);
+
+
     } 
 
     public void Back()
     {
         if(SceneManager.GetActiveScene().name =="BOSS_LEVEL" || SceneManager.GetActiveScene().name=="Winter" ){
-            SceneManager.LoadScene("Begining");
-            PlayStart();
             PlayerStats.Reset();
+            PlayerStartPoint.Reset();
             ScoreManager.SetScore();
+            SceneManager.LoadScene("Begining");
+            Start();
+
 
         }else{
             info.SetActive(false);

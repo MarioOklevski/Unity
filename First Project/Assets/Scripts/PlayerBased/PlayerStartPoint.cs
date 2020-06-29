@@ -8,6 +8,8 @@ public class PlayerStartPoint : MonoBehaviour
     private CameraTarget Camera;
     public Vector2 StartDirection;
     public string PointName;
+    public static bool restart=true;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -20,11 +22,17 @@ public class PlayerStartPoint : MonoBehaviour
             Camera = FindObjectOfType<CameraTarget>();
             Camera.transform.position = new Vector3(transform.position.x, transform.position.y, Camera.transform.position.z);
         }
+        restart=false;
         
     }
     // Update is called once per frame
     void Update()
     {
-        
+         if(restart){
+            Start();
+        }
+    }
+    public static void Reset(){
+        restart=true;
     }
 }

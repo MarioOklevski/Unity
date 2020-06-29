@@ -132,13 +132,9 @@ public class HighScoreTable : MonoBehaviour
         // TO DO
         add=false;
         sort();
-        // get name
-        // get score
-        //  AddHighScoreEntry(int score,string name){
-        PlayerName = GetPlayerName.GetName();
+        PlayerName = GetPlayerName.GetName().ToString();
         Score = ScoreManager.ScoreNumber;
         AddHighScoreEntry(Score, PlayerName);
-        // GetPlayerName.BossKilled();
         sort();
     }
     public static void Add(){
