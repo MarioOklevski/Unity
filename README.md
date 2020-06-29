@@ -1,10 +1,12 @@
-# WHISPERS OF AVALON
+# BATTLE FOR AVALON
 Unity Project by : Mario Oklevski, Veronika Ognjanovska, Marko Simonoski 
-#
-Македонски / [English](http://google.com)
+
+Македонски / [English](#description)
+
+
 
 ## 1. Опис на апликацијата 
-Апликацијата која што ја развиваме е од жанрата на авантуристички/roleplay тип на игри. Името на играта гласи **WHISPERS OF AVALON**. Идејата ни е да се претстави фиктивна приказна за авантурите на херојот кои ги доживува се со цел да го спаси народот од злото. Со цел да се постигне чувство на љубопитност кај играчот, овозможени се лесна навигација, интересни нивоа и противници кои постепено не водат до крајниот противник.
+Апликацијата која што ја развиваме е од жанрата на авантуристички/roleplay тип на игри. Името на играта гласи **BATTLE FOR AVALON**. Идејата ни е да се претстави фиктивна приказна за авантурите на херојот кои ги доживува се со цел да го спаси народот од злото. Со цел да се постигне чувство на љубопитност кај играчот, овозможени се лесна навигација, интересни нивоа и противници кои постепено не водат до крајниот противник.
 
 ## 2. Упатство за користењe
 
@@ -45,8 +47,7 @@ Unity Project by : Mario Oklevski, Veronika Ognjanovska, Marko Simonoski
 ## 3. Претставување на проблемот
 
 ### 3.1 Податочни структури
-Да се опише решението на проблемот (кои податоци се чуваат, во какви структури, класи) _____________________#######################______________
-Да се опише барем една ваша функција или класа од изворниот код на проектот
+Главните податоци и функции за играта се чуваат во различни класи. Главните функции во повеќето класи се void Start() , void Update() и void Awake() кои се во можност автоматски да се користат преку Unity engine-от. Void Awake() се користи за иницијализација на сите променливи или состојби на игра пред да започне играта. Оваа функција се повикува само еднаш во текот на “животот“ на скриптата, и тоа откако ќе се иницијализираат сите објекти за да можете безбедно да користите други објекти (GameObjects). Поради ова, треба да го користите Void Awake() за да поставите референци помеѓу скриптите и потоа да ја користите функцијата void Start() за да ги пренесете сите информации напред и назад помеѓи класите/функциите, а функцијата void Update() се користи за да се имплементираат сите функции/настани кои треба да се одвива на секој frame refresh
 
 ### 3.2 Примери од кодот
 Како дел од решението за генерирање и приказ на Top Score табела, се користи HighScoreTable скрипта во која се дефинирани 2 приватни класи (HighScoreEntry и HighScores) и поголем број функции меѓу кои се sort и AddHighScoreEntry.
@@ -74,7 +75,7 @@ Unity Project by : Mario Oklevski, Veronika Ognjanovska, Marko Simonoski
         }
     }
 ```
-##### 3.2.2 Функции 
+##### 3.2.2 Функција AddHighScoreEntry 
 ```c# 
     public static void AddHighScoreEntry(int Score,string Name){
         /// <summary>
@@ -101,21 +102,31 @@ Unity Project by : Mario Oklevski, Veronika Ognjanovska, Marko Simonoski
         PlayerPrefs.Save();
     }
 ```
+##### 3.2.3 Алгоритам за сортирање
 ```c# 
-    private void sort(){
+   /// <summary>
+   /// Sorting on already added entries and saving only the top 5
+   /// </summary>
+   private void sort(){
+        /// <summary>
+        /// Get JSON list of the table entries and Convert to list HighScores
+        /// </summary>
         string jsonString = PlayerPrefs.GetString("highScoreTable");
         HighScores highScores = JsonUtility.FromJson<HighScores>(jsonString);
+        /// <summary>
+        /// Creates the environment to form HighScore table when starting the game for the very first time
+        /// </summary>
         if(highScores==null){
-            // Debug.Log("here");
             highScores = new HighScores();
-            //highScores.highScoreEntryList = new List<HighScoreEntry>();
             string json=JsonUtility.ToJson(highScores);
-            PlayerPrefs.SetString("highScoreTable",json); //override
+            PlayerPrefs.SetString("highScoreTable",json);
             PlayerPrefs.Save();
             return;
         }
 
-        //sort 
+        /// <summary>
+        /// Sorting the entries from highScoreEntryList based on the score
+        /// </summary>
         for (int i=0;i<highScores.highScoreEntryList.Count;i++){
             for (int j=i+1;j<highScores.highScoreEntryList.Count;j++){
                 if(highScores.highScoreEntryList[j].score > highScores.highScoreEntryList[i].score){
@@ -126,119 +137,129 @@ Unity Project by : Mario Oklevski, Veronika Ognjanovska, Marko Simonoski
                 }
             }
         }
+        /// <summary>
+        /// Getting only the top 5 entries and saving them for next usage
+        /// </summary>
         if(highScores.highScoreEntryList.Count>5){
             HighScores highScoresNew = new HighScores();
             for (int i=0;i<5;i++){ // just the best 5 at a time
                 highScoresNew.highScoreEntryList.Add(highScores.highScoreEntryList[i]);
             }
             string json=JsonUtility.ToJson(highScoresNew);
-            PlayerPrefs.SetString("highScoreTable",json); //override
+            PlayerPrefs.SetString("highScoreTable",json);
             PlayerPrefs.Save();
         }
     }
-    ```
-```c# 
-    public void SaveScore(){
-        // TO DO
-        sort();
-        // get name
-        // get score
-        //  AddHighScoreEntry(int score,string name){
-        PlayerName = GetPlayerName.GetName();
-        Debug.Log(PlayerName);
-        Score = ScoreManager.ScoreNumber;
-        Debug.Log(Score);
-        AddHighScoreEntry(Score, PlayerName);
-    }
-    
-}
 ```
-
-[GIT HELP](https://guides.github.com/features/mastering-markdown/?fbclid=IwAR0H_y0yWrkFOth_9Cj5rZkDCbgjEsDKJylI2Mmqyg_LdlFZ0dfs1I6CSco)
-
-
-
-
-
-## 3. Претставување на проблемот
-
-### 3.1 Податочни структури
-
-Главните податоци и функции за играта се чуваат во класа public class Sudoku од која пак наследуваат двете класи public class Standard и public class Squiggly.
-
-Секоја променлива и функција содржи xml summary, со детално објаснување.
-
-public class Sudoku
+##### 3.2.4 Алгоритам за навигација на противник
+```c#
+void Update()
     {
         /// <summary>
-        /// Describes which fields of the grid are to be shown to the player.
-        /// Starting grid to be solved by player.
+        /// Calculating the distance between the enemy and the hero, and running different code if the they are in some range of each other
         /// </summary>
-        public int[,] mask;
+        Vector2 heroDirection = Hero.transform.position - transform.position;
+        bool range = (Mathf.Abs(heroDirection.x)) + (Mathf.Abs(heroDirection.y)) < 10;
+        /////////////////////// RANGE ////////////////////
         /// <summary>
-        /// Solution of the Sudoku
+        /// Code if in range of each other, enemy moving towards the hero
         /// </summary>
-        public int[,] solution;
+        if (range) {
+            myRigidBody.velocity = heroDirection;
+
+            direction = new Vector3(heroDirection.x * moveSpeed + 1, heroDirection.y * moveSpeed + 1, 0f);
+            LastMove = new Vector2(direction.x, direction.y);
+        }
+
+        ///////////////////// MOVEMENT RANDOM ///////////////// 
         /// <summary>
-        /// The current playing grid, as filled by player.
+        /// Code if they are not in a given range of each other, enemy moving random in between pauses
         /// </summary>
-        public int[,] userGrid;
+        if (!range)
+        { 
+            /// <summary>
+            /// Enemy moving at a random direction 
+            /// </summary>
+            if (Movement)
+            {
+                TimeToMoveCounter -= Time.deltaTime;
+                myRigidBody.velocity = direction;
+
+                if (TimeToMoveCounter < 0f)
+                {
+                    /// <summary>
+                    /// Setting random time for waiting
+                    /// </summary>
+                    Movement = false;
+                    TimeBetweenMoveCounter = Random.Range(TimeBetweenMove * 0.75f, TimeBetweenMove * 1.25f);
+                }
+            }
+            /// <summary>
+            /// Enemy waiting out given time
+            /// </summary>
+            else
+            {
+                TimeBetweenMoveCounter -= Time.deltaTime;
+                myRigidBody.velocity = Vector2.zero;
+                if (TimeBetweenMoveCounter < 0f)
+                {
+                    /// <summary>
+                    /// Setting random direction for next movement
+                    /// </summary>
+                    Movement = true;
+                    TimeToMoveCounter = Random.Range(TimeToMove * 0.75f, TimeToMove * 1.25f);
+                    direction = new Vector3(Random.Range(-1f, 1f) * moveSpeed, Random.Range(-1f, 1f) * moveSpeed, 0f);
+                    LastMove = new Vector2(direction.x, direction.y);
+                }
+            }
+        }
+        
         /// <summary>
-        /// Determines the look of the grid
+        /// Managing animations for movement and waiting
         /// </summary>
-        public int[,] scheme;
-        /// <summary>
-        /// Difficulty of game
-        /// </summary>
-        public Difficulty diff;
-        public int[,] rows;
-        public int[,] cols;
-        public int[,] groups;
-        /// <summary>
-        /// number of seconds the player has been playing
-        /// </summary>
-        public int ticks;
-}
+        anim.SetFloat("MoveX", direction.x);
+        anim.SetFloat("MoveY", direction.y);
+        if(range){
+            anim.SetBool("MovingSkeleton", true);
+        }else{
+            anim.SetBool("MovingSkeleton", Movement);
+        }
+        anim.SetFloat("LastMoveX", LastMove.x);
+        anim.SetFloat("LastMoveY", LastMove.y);
+    }
 
-### 3.2 Сериализација 
-За некои податоци да бидат достапни и после терминација на програмата, искористивме бинарна сериализација.
 
-Кога играчот прв пат ја вклучува апликацијата на својот компјутер, се креира скриен документ во <root>/Users/[USER]/App Data/Roaming/. Штом се променат High Scores, тие се ажурираат само во извршната верзија, а за време на затворањето на апликацијата, новата верзија од резултатите се сериализираат во фајлот HighScores.hs.
+```
 
-На ист принцип е изведено и зачувувањето на недовршена игра, но овој пат во фајлот Sudoku.oku.
+English / [Македонски](#battle-for-avalon)
 
-За еден објект да можеме да го сериализираме, потребно е класата од која е инстанциран да биде сериализабилна.
+## 1. Application description
+The application that we are developing is from the genre of adventure / roleplay type of games. The name of the game is BATTLE FOR AVALON. Our idea is to represent a fictional story about the adventures of the hero who experiences them in order to save the people from the evil. In order to achieve a sense of curiosity to the player, easy navigation, interesting levels and opponents are provided that gradually lead us to the final opponent.
 
-    [Serializable]
-    public class HighScores{}
-    [Serializable]
-    public class Sudoku{}
-За читање на веќе внесени податоци во овие фајлови се повикува методот Deserialize(); со FileStream од содржината на сериализираниот фајл како аргумент. Излезот од овој метод се кастира како соодветен објект и се доделува на веќе инстанциран null објект од иста класа.
+## 2. Instructions for playing the game
+The W (up), S (down), A (left), D (right) buttons or arrow keys are used to navigate around the world. You can attack the opponents with the button J. Pause the game via the ESC button or by clicking the PAUSE  button which is on the screen.
 
-### 3.3 Алгоритми
+### 2.1 New game
+In the initial window (Picture no.1) when starting the application you have the opportunity to start a new game (Play). Also you have the opportunity to see a list of records (Top Scores), additional information (Info), and to turn off the game (Exit).
 
-За да биде целосна играта на судоку имплементиравме различни алгоритми за генерирање и валидирање на успешно решение.
+If you want to start a new game (Play), first enter the appropriate name of the player and by pressing the Start button the game starts. (Picture no.2).
 
-#### 3.3.1 Почетна состојба 
-InitGrid(); Со повикување на оваа фукнција прво се пополнува првата редица и првата колона со случајни броеви, запазувајќи го правилото да нема две исти соодветно, потоа се повикуваат останатите методи.
+### 2.2 Top Scores
+Here (Picture no.3) the best 5 players are kept, sorted according to the result they achieved by finishing the game. The data is serialized and available after the game is turned off. When the hero defeats the main opponent, the Top Scores table appears, and if the current result is greater than any of the results in the table, he takes his place by properly updating it. After closing the application, the results are saved.
 
-#### 3.3.2 Решавање 
-#####SolveGrid(); Оваа функција го решава Standard Sudoku со пополнување на полињата кои за дадената почетна состојба имаат најмал број на можни вредности. Тука за проверка се користат 3 функции IsInRow();, IsInCol(); и IsIn3x3();. Полињата што остануваат се пополнуваат користејќи ја истата техника за генерирање на пермутации рекурзивно.
+### 2.3 Pause Game
+During the game, you can pause it via the ESC button or by clicking the PAUSE screen button. From here, the player can continue the game or finish it, without saving his result.
 
-##### solve();
-Оваа функција решава Squiggly Sudoku. Тука алгоритмот е поедноставен со тоа што се користи само рекурзивната техника за генерирање на пермутации, кои не носат кон решението.
+### 2.4 Levels
+The game has 4 levels, each harder than the previous one, while the last one is the level where the main opponent is.
+Each of them is unique, in a different environment and with different opponents.
+* Desert is the first level where we fight against skeletons.
+* Beach is the second level where we fight against deadly pigeons.
+* Winter is the third level where we fight against green orcs.
 
-#### 3.3.3 Одстранувае на полиња
-#####Blanker(); Оваа функција прима како аргумент решена матрица од погорните функции, и во зависност од одбраната тежина враќа нова матрица со соодветен број на одстранети полиња, за играчот да ги пополнува.
 
-Прво се бира случајна позиција во матрицата, се бриши вредноста и се повикува соодветната функција за решавање со која се проверува дали новодобиената матрица има уникатно решение. Ако има и не е постигнат саканиот број на празни полиња, постапката продолжува се додека истиот не се постигне. Во моментот кога ќе се најде повеќе од едно решение, вредноста на последното избришано поле се враќа и се бира друго за бришење и постапката продолжува.
 
-#### 3.3.3 Валидација на корисничко решение
-#####IsSolved(); Кога сите полиња се пополнети, се повикува оваа функција која се придржува на правилата за да одреди дали дадената игра е точно решена.
-
-###3.4 GUI
-
-За претставување на матрицата за судоку користевме dataGridView контрола со измени на предодредените карактеристики.
+[UNITY helper](https://learn.unity.com/tutorial/variables-and-functions#)
 
 
 
