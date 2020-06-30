@@ -1,7 +1,7 @@
 # BATTLE FOR AVALON
 Unity Project by : Mario Oklevski, Veronika Ognjanovska, Marko Simonoski 
 
-Македонски / [English](#description)
+Македонски / [English](#english)
 
 
 
@@ -23,7 +23,7 @@ Unity Project by : Mario Oklevski, Veronika Ognjanovska, Marko Simonoski
 
 
 ### 2.2 Top Scores
-![Top Scores](/Images/img1.png)
+![Top Scores](/Images/img3.png)
 
 Тука (слика 3) се чуваат најдобрите 5 играчи, сортирани според резултатот кој го постигнале со завршување на играта.
 Податоците се сериализирани и се достапни и после исклучување на играта.
@@ -228,13 +228,13 @@ void Update()
         anim.SetFloat("LastMoveY", LastMove.y);
     }
 
-
 ```
 
 English / [Македонски](#battle-for-avalon)
+#### English 
 
 ## 1. Application description
-The application that we are developing is from the genre of adventure / roleplay type of games. The name of the game is BATTLE FOR AVALON. Our idea is to represent a fictional story about the adventures of the hero who experiences them in order to save the people from the evil. In order to achieve a sense of curiosity to the player, easy navigation, interesting levels and opponents are provided that gradually lead us to the final opponent.
+The application that we are developing is from the genre of adventure / roleplay type of games. The name of the game is **BATTLE FOR AVALON**. Our idea is to represent a fictional story about the adventures of the hero who experiences them in order to save the people from the evil. In order to achieve a sense of curiosity to the player, easy navigation, interesting levels and opponents are provided that gradually lead us to the final opponent.
 
 ## 2. Instructions for playing the game
 The W (up), S (down), A (left), D (right) buttons or arrow keys are used to navigate around the world. You can attack the opponents with the button J. Pause the game via the ESC button or by clicking the PAUSE  button which is on the screen.
@@ -257,6 +257,11 @@ Each of them is unique, in a different environment and with different opponents.
 * Beach is the second level where we fight against deadly pigeons.
 * Winter is the third level where we fight against green orcs.
 
+
+Unity Project by : (Name, Index, GitName)
+* Marko Simonoski - 181210 - @MarkoSimka
+* Mario Oklevski - 181218 - @TrainMKD
+* Veronika Ognjanovska -181045 - @GreenGummyBear
 
 
 [UNITY helper](https://learn.unity.com/tutorial/variables-and-functions#)
