@@ -11,7 +11,7 @@ public class DialogueManager : MonoBehaviour
 
     public Animator anim;
 
-    public Queue<string> sentences;
+    private Queue<string> sentences;
 
     // Start is called before the first frame update
     void Start()
@@ -21,6 +21,8 @@ public class DialogueManager : MonoBehaviour
     }
     public void StartDialogue(Dialogue dialogue)
     {
+        Time.timeScale = 0f;
+
         anim.SetBool("IsOpen", true);
 
         NameText.text = dialogue.Name;
@@ -61,5 +63,6 @@ public class DialogueManager : MonoBehaviour
     void EndDialogue()
     {
         anim.SetBool("IsOpen", false);
+        Time.timeScale = 1f;
     }
 }
