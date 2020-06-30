@@ -104,6 +104,8 @@ MonoBehaviour:
   TimeBetweenMove: 2
   TimeToMove: 1
   WaitToReload: 2
+  Player: {fileID: 0}
+  Hero: {fileID: 0}
 --- !u!50 &4026451275080600329
 Rigidbody2D:
   serializedVersion: 4
@@ -182,6 +184,8 @@ MonoBehaviour:
   EnemyMaxHealth: 10
   EnemyCurrentHealth: 0
   ExpWhenKilled: 25
+  Give_Score: 10
+  menu: {fileID: 0}
 --- !u!95 &4026451275080600436
 Animator:
   serializedVersion: 3
