@@ -17595,10 +17595,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3bb370840656104097aadb99ab6a1b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  EnemyMaxHealth: 1
+  EnemyMaxHealth: 100
   EnemyCurrentHealth: 0
-  ExpWhenKilled: 100
-  Give_Score: 0
+  ExpWhenKilled: 500
+  Give_Score: 1000
   menu: {fileID: 0}
 --- !u!114 &1053504621
 MonoBehaviour:
@@ -17612,7 +17612,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96dfcceb265da854cb472310ddb406b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DamageToDeal: 20
+  DamageToDeal: 25
   WaitToReload: 0.7
   DamageNumbers: {fileID: 5587805460742487813, guid: 5429555df50f346409caa0ced7694702,
     type: 3}

@@ -16,7 +16,7 @@ public class DialogueManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        Object.DontDestroyOnLoad(gameObject);
         sentences = new Queue<string>();
     }
     public void StartDialogue(Dialogue dialogue)

@@ -55,9 +55,7 @@ public class PauseMenu : MonoBehaviour
     }
     
     public void yes(){
-        Debug.Log("Quitting game");
-        yesno.SetActive(false);
-        main.SetActive(true);
+        Menu.ConfirmResetSet();
     }
     public void no(){
         yesno.SetActive(false);

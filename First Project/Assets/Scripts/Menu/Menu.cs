@@ -4,6 +4,7 @@ using System.Threading;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UIElements;
 
 public class Menu : MonoBehaviour
 {
@@ -17,6 +18,8 @@ public class Menu : MonoBehaviour
     public GameObject info;
     public GameObject topScore;
     public GameObject scoreBoard;
+    public GameObject canvas;
+    private static bool ConfirmReset = false;
     private SpriteRenderer sp;
 
 
@@ -52,12 +55,6 @@ public class Menu : MonoBehaviour
         info.SetActive(false);
         topScore.SetActive(false);
         scoreBoard.SetActive(false);
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
     //  MAIN MENU   
     public void Play()
@@ -110,13 +107,17 @@ public class Menu : MonoBehaviour
 
     public void Back()
     {
-        if(SceneManager.GetActiveScene().name =="BOSS_LEVEL" || SceneManager.GetActiveScene().name=="Winter" ){
+        if(SceneManager.GetActiveScene().name =="BOSS_LEVEL"){
             PlayerStats.Reset();
             PlayerStartPoint.Reset();
             ScoreManager.SetScore();
             SceneManager.LoadScene("Begining");
+            player.GetComponent<Controls>().StartPoint = "Begin";
+            canvas.GetComponent<PlayerStats>().CurrentPlayerLevel = 0;
+            canvas.GetComponent<PlayerStats>().CurrentPlayerExp = 0;
+            player.GetComponent<PlayerHealth>().PlayerCurrentHealth = 50;
             Start();
-
+            
 
         }else{
             info.SetActive(false);
@@ -126,4 +127,26 @@ public class Menu : MonoBehaviour
         }
     }
 
+    public static void ConfirmResetSet()
+    {
+        ConfirmReset = true;
+    }
+
+    private void Update()
+    {
+        if (ConfirmReset)
+        {
+            PlayerStats.Reset();
+            PlayerStartPoint.Reset();
+            ScoreManager.SetScore();
+            SceneManager.LoadScene("Begining");
+            player.GetComponent<Controls>().StartPoint = "Begin";
+            canvas.GetComponent<PlayerStats>().CurrentPlayerLevel = 0;
+            canvas.GetComponent<PlayerStats>().CurrentPlayerExp = 0;
+            player.GetComponent<PlayerHealth>().PlayerCurrentHealth = 50;
+            Start();
+
+            ConfirmReset = false;
+        }
+    }
 }

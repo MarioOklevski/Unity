@@ -183,7 +183,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EnemyMaxHealth: 10
   EnemyCurrentHealth: 0
-  ExpWhenKilled: 25
+  ExpWhenKilled: 5
   Give_Score: 10
   menu: {fileID: 0}
 --- !u!95 &4026451275080600436

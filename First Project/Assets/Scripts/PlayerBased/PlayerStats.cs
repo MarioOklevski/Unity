@@ -49,7 +49,6 @@ public class PlayerStats : MonoBehaviour
             DeffenceLevels[1]=dl;
             Health = FindObjectOfType<PlayerHealth>();
             restart=false;
-            Debug.Log("heereeee");
         }
     }
     public void AddExperience(int ExpToAdd)

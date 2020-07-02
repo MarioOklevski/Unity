@@ -12,14 +12,19 @@ public class HighScoreTable : MonoBehaviour
     private List<Transform> highScoreEntryTransformList;
     private static string PlayerName;
     private static int Score;
-    private bool t=false;
     private static bool add=false;
-// PRIVATE CLASSES X2   
+
+    /// <summary>
+    /// Custom Serializable class containing the score and the name of a player entry in the TopScore table
+    /// </summary>
     [System.Serializable]
     private class HighScoreEntry{
         public int score;
         public string name;
     }
+    /// <summary>
+    /// Custom Serializable class containing list of entries for TopScore table
+    /// </summary>
     private class HighScores{
         public List<HighScoreEntry> highScoreEntryList;
         public HighScores(){
@@ -39,10 +44,10 @@ public class HighScoreTable : MonoBehaviour
         string jsonString = PlayerPrefs.GetString("highScoreTable");
         HighScores highScores= JsonUtility.FromJson<HighScores>(jsonString);
        //reload table
-    //     highScores.highScoreEntryList = new List<HighScoreEntry>();
-    //     string json=JsonUtility.ToJson(highScores);
-    //     PlayerPrefs.SetString("highScoreTable",json);
-    //     PlayerPrefs.Save();
+        //highScores.highScoreEntryList = new List<HighScoreEntry>();
+        //string json=JsonUtility.ToJson(highScores);
+        //PlayerPrefs.SetString("highScoreTable",json);
+        //PlayerPrefs.Save();
        
         
 
@@ -80,34 +85,54 @@ public class HighScoreTable : MonoBehaviour
     }
 
     public static void AddHighScoreEntry(int Score,string Name){
-        // create
+        /// <summary>
+        /// Create new HighScoreEntry
+        /// </summary>
         HighScoreEntry highScoreEntry = new HighScoreEntry{score=Score,name=Name};
-        //load-get
+        /// <summary>
+        /// Get JSON list of the table entries
+        /// </summary>
         string jsonString = PlayerPrefs.GetString("highScoreTable");
+        /// <summary>
+        /// Convert to list HighScores
+        /// </summary>
         HighScores highScores = JsonUtility.FromJson<HighScores>(jsonString);
-        //add new entry
+        /// <summary>
+        /// Add new entry to the list
+        /// </summary>
         highScores.highScoreEntryList.Add(highScoreEntry);
-        //save updated
-        string json=JsonUtility.ToJson(highScores);
+        /// <summary>
+        /// Save updated
+        /// </summary>
+        string json =JsonUtility.ToJson(highScores);
         PlayerPrefs.SetString("highScoreTable",json);
         PlayerPrefs.Save();
-        // Debug.Log(PlayerPrefs.GetString("highScoreTable"));
     }
 
+
+    /// <summary>
+    /// Sorting on already added entries and saving only the top 5
+    /// </summary>
     private void sort(){
-       string jsonString = PlayerPrefs.GetString("highScoreTable");
+        /// <summary>
+        /// Get JSON list of the table entries and Convert to list HighScores
+        /// </summary>
+        string jsonString = PlayerPrefs.GetString("highScoreTable");
         HighScores highScores = JsonUtility.FromJson<HighScores>(jsonString);
-        if(highScores==null){
-            // Debug.Log("here");
+        /// <summary>
+        /// Creates the environment to form HighScore table when starting the game for the very first time
+        /// </summary>
+        if (highScores==null){
             highScores = new HighScores();
-            //highScores.highScoreEntryList = new List<HighScoreEntry>();
             string json=JsonUtility.ToJson(highScores);
-            PlayerPrefs.SetString("highScoreTable",json); //override
+            PlayerPrefs.SetString("highScoreTable",json);
             PlayerPrefs.Save();
             return;
         }
 
-        //sort 
+        /// <summary>
+        /// Sorting the entries from highScoreEntryList based on the score
+        /// </summary>
         for (int i=0;i<highScores.highScoreEntryList.Count;i++){
             for (int j=i+1;j<highScores.highScoreEntryList.Count;j++){
                 if(highScores.highScoreEntryList[j].score > highScores.highScoreEntryList[i].score){
@@ -118,7 +143,10 @@ public class HighScoreTable : MonoBehaviour
                 }
             }
         }
-        if(highScores.highScoreEntryList.Count>5){
+        /// <summary>
+        /// Getting only the top 5 entries and saving them for next usage
+        /// </summary>
+        if (highScores.highScoreEntryList.Count>5){
             HighScores highScoresNew = new HighScores();
             for (int i=0;i<5;i++){ // just the best 5 at a time
                 highScoresNew.highScoreEntryList.Add(highScores.highScoreEntryList[i]);
@@ -128,6 +156,8 @@ public class HighScoreTable : MonoBehaviour
             PlayerPrefs.Save();
         }
     }
+
+
     public void SaveScore(){
         // TO DO
         add=false;

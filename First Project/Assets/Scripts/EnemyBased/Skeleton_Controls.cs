@@ -37,9 +37,15 @@ public class Skeleton_Controls : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        /// <summary>
+        /// Calculating the distance between the enemy and the hero, and running different code if the they are in some range of each other
+        /// </summary>
         Vector2 heroDirection = Hero.transform.position - transform.position;
-        bool range = (Mathf.Abs(heroDirection.x)) + (Mathf.Abs(heroDirection.y)) < 10;
+        bool range = (Mathf.Abs(heroDirection.x)) + (Mathf.Abs(heroDirection.y)) < 6;
         /////////////////////// RANGE ////////////////////
+        ////// <summary>
+        /// Code if in range of each other, enemy moving towards the hero
+        /// </summary>
         if (range) {
             myRigidBody.velocity = heroDirection;
 
@@ -47,9 +53,15 @@ public class Skeleton_Controls : MonoBehaviour
             LastMove = new Vector2(direction.x, direction.y);
         }
 
-        /////////////////////MOVEMENT///////////////// Not in range
+        ///////////////////// MOVEMENT RANDOM /////////////////
+        /// <summary>
+        /// Code if they are not in a given range of each other, enemy moving random in between pauses
+        /// </summary>
         if (!range)
-        { 
+        {
+            /// <summary>
+            /// Enemy moving at a random direction 
+            /// </summary>
             if (Movement)
             {
                 TimeToMoveCounter -= Time.deltaTime;
@@ -57,16 +69,25 @@ public class Skeleton_Controls : MonoBehaviour
 
                 if (TimeToMoveCounter < 0f)
                 {
+                    /// <summary>
+                    /// Setting random time for waiting
+                    /// </summary>
                     Movement = false;
                     TimeBetweenMoveCounter = Random.Range(TimeBetweenMove * 0.75f, TimeBetweenMove * 1.25f);
                 }
             }
+            /// <summary>
+            /// Enemy waiting out given time
+            /// </summary>
             else
             {
                 TimeBetweenMoveCounter -= Time.deltaTime;
                 myRigidBody.velocity = Vector2.zero;
                 if (TimeBetweenMoveCounter < 0f)
                 {
+                    /// <summary>
+                    /// Setting random direction for next movement
+                    /// </summary>
                     Movement = true;
                     TimeToMoveCounter = Random.Range(TimeToMove * 0.75f, TimeToMove * 1.25f);
                     direction = new Vector3(Random.Range(-1f, 1f) * moveSpeed, Random.Range(-1f, 1f) * moveSpeed, 0f);
@@ -74,9 +95,11 @@ public class Skeleton_Controls : MonoBehaviour
                 }
             }
         }
-        
 
 
+        /// <summary>
+        /// Managing animations for movement and waiting
+        /// </summary>
         anim.SetFloat("MoveX", direction.x);
         anim.SetFloat("MoveY", direction.y);
         if(range){

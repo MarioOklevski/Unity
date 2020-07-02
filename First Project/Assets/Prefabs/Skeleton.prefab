@@ -200,7 +200,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3bb370840656104097aadb99ab6a1b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  EnemyMaxHealth: 10
+  EnemyMaxHealth: 19
   EnemyCurrentHealth: 0
-  ExpWhenKilled: 25
-  Give_Score: 10
+  ExpWhenKilled: 10
+  Give_Score: 20
+  menu: {fileID: 0}

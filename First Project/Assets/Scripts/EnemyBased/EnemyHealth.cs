@@ -15,8 +15,7 @@ public class EnemyHealth : MonoBehaviour
     public int Give_Score;
     private GameObject Button;
     private GameObject Slider;
-    private GameObject Score;
-    public GameObject menu;
+
     // Start is called before the first frame update
     void Start()
     {
