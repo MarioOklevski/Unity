@@ -41,7 +41,7 @@ public class Skeleton_Controls : MonoBehaviour
         /// Calculating the distance between the enemy and the hero, and running different code if the they are in some range of each other
         /// </summary>
         Vector2 heroDirection = Hero.transform.position - transform.position;
-        bool range = (Mathf.Abs(heroDirection.x)) + (Mathf.Abs(heroDirection.y)) < 6;
+        bool range = (Mathf.Abs(heroDirection.x)) + (Mathf.Abs(heroDirection.y)) < 8;
         /////////////////////// RANGE ////////////////////
         ////// <summary>
         /// Code if in range of each other, enemy moving towards the hero

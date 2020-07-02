@@ -21,8 +21,7 @@ public class Menu : MonoBehaviour
     public GameObject canvas;
     private static bool ConfirmReset = false;
     private SpriteRenderer sp;
-
-
+    public TMP_InputField Field;
 
     public void Start()
     {
@@ -38,8 +37,7 @@ public class Menu : MonoBehaviour
         info.SetActive(false);
         topScore.SetActive(false);
         scoreBoard.SetActive(false);
-
-
+        EasterEggControls.PoeniHipoteticki();
     }
      public void KillBoss()
     {
@@ -61,6 +59,7 @@ public class Menu : MonoBehaviour
     {
         main.SetActive(false);
         start.SetActive(true);
+        Field.characterLimit = 8;
     }
 
     public void Info(){

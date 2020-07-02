@@ -14,6 +14,8 @@ public class EasterEggControls : MonoBehaviour
     public float TimeToMove;
     private float TimeToMoveCounter;
     private Vector3 direction;
+    private static bool POENI;
+    private ScoreManager Scores;
 
     // Start is called before the first frame update
     void Start()
@@ -55,5 +57,18 @@ public class EasterEggControls : MonoBehaviour
         anim.SetBool("Movement", Movement);
         anim.SetFloat("LastMoveX", LastMove.x);
         anim.SetFloat("LastMoveY", LastMove.y);
+
+        ///POENI ++///
+ 
+        if (POENI)
+        {
+            Scores = new ScoreManager();
+            Scores.AddScore(500);
+            POENI = false;
+        }
+    }
+    public static void PoeniHipoteticki()
+    {
+        POENI = true;
     }
 }

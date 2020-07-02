@@ -21,7 +21,6 @@ public class GetPlayerName : MonoBehaviour
     void Awake()
     {
         killed=false;
-        Field.characterLimit = 8;
     }
     public void SetName()
     {
